@@ -1,0 +1,1186 @@
+/* Grafica x Skin x Elaborazione - Skin di Fade To R e d*/
+* {box-sizing:border-box}:root {--bianco: #FFF;
+ --nero: #000;
+ --grigio: #303030;
+ --uno: #292354;
+ --due: #3B8686;
+ --tre: #8FBEBA;
+ --quattro: #CFF09E;
+ --cinque: #A8DBA8;
+ --sei: #0B486B;
+ --sette: #79BD9A;
+ --otto: #E2F7C4;
+ --sfondo: #3C7D84;
+ --tag: #E8598B;
+ --attributi: #A75DCA;
+ --stringhe: #309584;
+ --anonimo: #A094AD;
+ --online: #A3DB8D;
+ --offline: #D94860;
+ --dicelow: #F89393;
+ --dicemedium: #F6E1A3;
+ --dicehigh: #A3F6C6;
+ --dicehighest: #B2ACFF;
+ --titolo: gloria hallelujah;
+ --sottotitolo: sriracha}
+/*Nascondere "modificato da" nelle discussioni*/
+.t63089666 .edit {font-size: 0; display: none}
+/*nel regolamento*/
+.t63204467 .edit {font-size: 0; display: none}
+.t62645804 .edit {font-size: 0; display: none}
+.t62985775 .edit {font-size: 0; display: none}
+.t61227533 .edit {font-size: 0; display: none}
+.t63112193 .edit {font-size: 0; display: none}
+.t61196321 .edit {font-size: 0; display: none}
+.t61194869 .edit {font-size: 0; display: none}
+.t61206157 .edit {font-size: 0; display: none}
+.t62587846 .edit {font-size: 0; display: none}
+.t61227201 .edit {font-size: 0; display: none}
+.t63204477 .edit {font-size: 0; display: none}
+.t63204468 .edit {font-size: 0; display: none}
+.t61196402 .edit {font-size: 0; display: none}
+.t63204550 .edit {font-size: 0; display: none}
+.t61206194 .edit {font-size: 0; display: none}
+.t61227199 .edit {font-size: 0; display: none}
+.t63246680 .edit {font-size: 0; display: none}
+.t63246681 .edit {font-size: 0; display: none}
+
+/*Script per avviso giornaliero*/
+#avviso_giornaliero {display: none; position: fixed; z-index: 9; left: 50%; top: 120px; background: #FFF; border-radius: 10px; box-shadow: 0 0 5px rgba(0, 0, 0, .1)}
+#avviso_giornaliero .close_box {font-size: 12px; margin: 10px auto; font-weight: bold; cursor: pointer}
+/*BOTTONI SEZIONI ORIZZONTALI*/
+.rollini a:link, .rollini a:visited {display:inline-block; float:left; width: 144px; height: 24px; background-color: var(--sette); border: 2px solid var(--sei); text-align:center; font-weight: bold !important; font-size: 9px; text-transform: uppercase; font-family: calibri; letter-spacing: 1px; line-height: 2.2em; color: var(--sei); margin-bottom: 5px} .rollini a:hover {background-color: var(--quattro); color: var(--sei)!important; border-color: var(--sei)!important}
+
+.rollini2 a:link, .rollini2 a:visited {display:inline-block; float:right; width: 144px; height: 24px; background-color: var(--sette); border: 2px solid var(--sei); text-align:center; font-weight: bold !important; font-size: 9px; text-transform: uppercase; font-family: calibri; letter-spacing: 1px; line-height: 2.2em; color: var(--sei); margin-bottom: 5px} .rollini2 a:hover {background-color: var(--quattro); color: var(--sei)!important; border-color: var(--sei)!important}
+
+.rollini3 a:link, .rollini3 a:visited {display:inline-block; width: 99%; height: 26px; background-color: var(--sette); border: 2px solid var(--sei); text-align:center; font-weight: bold !important; font-size: 9px; text-transform: uppercase; font-family: calibri; letter-spacing: 1px; line-height: 2em; color: var(--sei); margin-bottom: 2px} .rollini3 a:hover {background-color: var(--quattro); color: var(--sei)!important; border-color: var(--sei)!important}
+
+.rollini4 a:link, .rollini4 a:visited {display:inline-block; float:left; width: 144px; height: 26px; background-color: var(--sette); border: 2px solid var(--sei); text-align:center; font-weight: bold !important; font-size: 9px; text-transform: uppercase; font-family: calibri; letter-spacing: 1px; line-height: 2.2em; color: var(--sei); margin-bottom: 5px} .rollini4 a:hover {background-color: var(--quattro); color: var(--sei)!important; border-color: var(--sei)!important}
+
+.rollini5 a:link, .rollini5 a:visited {display:inline-block; float:right; width: 144px; height: 26px; background-color: var(--sette); border: 2px solid var(--sei); text-align:center; font-weight: bold !important; font-size: 9px; text-transform: uppercase; font-family: calibri; letter-spacing: 1px; line-height: 2.2em; color: var(--sei); margin-bottom: 5px} .rollini5 a:hover {background-color: var(--quattro); color: var(--sei)!important; border-color: var(--sei)!important}
+
+.rollini7 a:link, .rollini7 a:visited {display:inline-block; width: 99%; height: 24px; background-color: var(--sette); border: 2px solid var(--sei); text-align:center; font-weight: bold !important; font-size: 9px; text-transform: uppercase; font-family: calibri; letter-spacing: 1px; line-height: 2.2em; color: var(--sei); margin-bottom: 5px} .rollini7 a:hover {background-color: var(--quattro); color: var(--sei)!important; border-color: var(--sei)!important}
+
+/*INIZIO TABELLA - "Hunter × Hunter Forum - GDR Remastered" e "Alla prossima caccia!"*/
+.tabella-home {border: 2px solid var(--tre); border-spacing: 0; font-family:var(--sottotitolo); color:var(--uno); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1); border-radius: 12px; overflow:hidden; position:relative; background:var(--due); margin-bottom: 10px}
+.tabella-fondo {max-width: 1040px; width: min(1040px, calc(100vw - 26.5vw)); background:var(--due)}
+/* bordi */
+.tabella-home td {border: 1px solid var(--tre); position:relative}
+.tabella-home th {border: 1px solid var(--tre); position:relative; overflow:hidden}
+/* Titoli */
+.titolo {height: 35px; font-size: 25px; font-family:var(--titolo); padding: 3px; color:var(--bianco); background:linear-gradient(120deg, var(--uno) 0%, var(--due) 50%, var(--sei) 100%); text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3), 0 0 20px var(--cinque); letter-spacing: 2px; position:relative}
+
+.titolo::after {content:''; position:absolute; top: 0; left: -100%; width: 100%; height: 2px; background:linear-gradient(90deg, transparent, var(--cinque), transparent); animation:linealuminosatitolo 4s ease-in-out infinite}
+@keyframes linealuminosatitolo {0% {left: -100%} 100% {left: 200%}}
+
+.titolo::before {content:'\2726'; position:absolute; right: 20px; top: 50%; transform:translatey(-50%); color:var(--quattro); font-size: 1.2em; text-shadow: 0 0 10px var(--cinque); animation:stellatitolo 6s linear infinite}
+@keyframes stellatitolo {0% {transform:translatey(-50%) rotate(0deg)} 100% {transform:translatey(-50%) rotate(360deg)}}
+
+/* Titoletti*/
+.titoletto-tabella, .titoletto-gdr {font-family:gloria hallelujah; padding: 3px; height: 30px; font-weight:bold; text-align:center; font-size: 18px; color:var(--bianco); background:linear-gradient(135deg, var(--due) 0%, var(--sette) 100%); text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3), 0 0 10px var(--quattro); letter-spacing: 1px; position:relative; border-bottom: 2px solid var(--tre); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2)}
+.titoletto-tabella::before {content:'\275B'; position:absolute; left: 10px; top: 60%; transform:translatey(-50%); font-size: 1.6em; color:var(--quattro); text-shadow: 0 0 8px var(--cinque); animation:virgolette 2s ease-in-out infinite}
+.titoletto-tabella::after {content:'\275C'; position:absolute; right: 10px; top: 60%; transform:translatey(-50%); font-size: 1.6em; color:var(--quattro); text-shadow: 0 0 8px var(--cinque); animation:virgolette 2s ease-in-out infinite 1s}
+@keyframes virgolette {0%, 100% {opacity: 0.6; transform:translatey(-50%) scale(1)} 50% {opacity: 1; transform:translatey(-50%) scale(1.2)}}
+
+/* Immagini "il gdr" e "Pilot"*/
+.box1 img, .box2 img {border: 2px solid var(--tre)!important; margin: 4px 2px; width: 75px; object-fit:cover!important; opacity: 0.8; border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.2); transition:all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); position:relative; filter:brightness(0.95)}
+.box1 img:hover, .box2 img:hover {opacity: 1; transform:translatey(0px) scale(1.01); border-color:var(--cinque)!important; box-shadow: 0 6px 20px rgba(59, 134, 134, 0.4), inset 0 0 0 1px rgba(255, 255, 255, 0.4), 0 0 15px var(--cinque); filter:brightness(1.05)}
+
+/*Immagini nelle altre celle*/
+.box3 img, .box4 img, .box5 img, .box6 img {padding: 2px; border: 2px solid var(--sei); margin: 2px; opacity: 0.8; border-radius: 6px; transition:all 0.3s ease; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); filter:brightness(0.95)}
+.box3 img:hover, .box4 img:hover, .box5 img:hover, .box6 img:hover {border: 2px solid var(--cinque); opacity: 1; transform:translatey(-2px) scale(1.05); box-shadow: 0 4px 12px rgba(59, 134, 134, 0.4), 0 0 10px var(--cinque); filter:brightness(1.05)}
+
+/* Div nelle celle*/
+.descrizione, .pilot, .copyright {overflow-y:scroll; height: 117px; padding: 5px; color:var(--bianco); background:linear-gradient(135deg, rgba(41, 35, 84, 0.3) 0%, rgba(11, 72, 107, 0.3) 100%); border-radius: 6px; margin: 4px; box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.2); line-height: 1.5; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)}
+
+.affiliati, .gemellati, .attivita-gdr {overflow-y:scroll; height: 117px; padding: 5px; color:var(--bianco); margin-top: 4px; margin-bottom: 4px}
+
+.community {overflow-y:auto; height: 87px; padding: 5px; color:var(--bianco); background:linear-gradient(135deg, rgba(41, 35, 84, 0.3) 0%, rgba(11, 72, 107, 0.3) 100%); border-radius: 6px; margin: 4px; box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.2); line-height: 1.5; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)}
+
+/* Box3 - Community */
+.box3 {text-align:center; background:linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(207, 240, 158, 0.1) 100%)}
+
+/* Box4 - Affiliati */
+.box4 {width: 324px; margin: 2px; text-align:center; background:linear-gradient(135deg, rgba(59, 134, 134, 0.1) 0%, rgba(121, 189, 154, 0.1) 100%)}
+
+/* Box5 - Gemellati */
+.box5 {width: 450px; text-align:center; background:linear-gradient(135deg, rgba(168, 219, 168, 0.1) 0%, rgba(143, 190, 186, 0.1) 100%)}
+
+/* Box6 - Attività GDR */
+.box6 {text-align:center; color:var(--bianco); background:linear-gradient(135deg, rgba(41, 35, 84, 0.2) 0%, rgba(11, 72, 107, 0.2) 100%); width: 180px}
+
+/* Titolo Newsboard */
+.titolonewsboard {background:linear-gradient(135deg, var(--sette) 0%, var(--cinque) 50%, var(--sette) 100%); font-size: 25px; font-family:gloria hallelujah; padding: 10px; color:var(--uno); text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5), 0 0 15px var(--quattro); letter-spacing: 2px; position:relative; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3)}
+
+.titolonewsboard::before {content:''; position:absolute; inset: 0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.2) 11px); pointer-events:none}
+
+/* Newsboard */
+.shoutbox .mback {display:none} .shoutbox .list {border: 0!important} .shoutbox {margin-bottom: 2px!important}
+.shoutbox .avatar>img {object-fit:cover!important; border: 2px solid var(--due); background: #0000; padding: 1px; width: 36px!important; height: 36px!important; border-radius: 6px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); transition:all 0.3s ease}
+.shoutbox .avatar>img:hover {border-color:var(--cinque); box-shadow: 0 2px 10px rgba(59, 134, 134, 0.4); transform:scale(1.05)}
+.shoutbox .msg_content {font-size: 12px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)}
+.shoutbox .codebuttons {border-radius: 6px!important; width:auto!important; height:auto!important; color:var(--sei)!important; border: 2px solid var(--sei)!important; filter:drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))!important; transition:all 0.3s ease!important}
+.shoutbox .codebuttons:hover {border-color:var(--cinque)!important; transform:translatey(-1px); filter:drop-shadow(0px 4px 8px rgba(59, 134, 134, 0.3))!important}
+.shoutbox td {border: 0!important} .shoutbox .sb_sending {padding-right: 10px!important} .shout_hr_resize {display:none} .shoutbox .bottom .ww {height:auto!important; min-height: 3px!important}
+.sb_admin {background: url(https://upload.forumfree.net/i/ff13982804/Hunter/NBgear2.png) no-repeat center center !important; padding: 12px !important}
+.sb_code {background: url(https://upload.forumfree.net/i/ff13982804/Hunter/NBpen2.png) no-repeat center center !important; padding: 12px !important}
+
+/* GDR sections con badge animati */
+.gdr-on, .gdr-off, .gdr-extra {width: 315px; position:relative; background:linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(168, 219, 168, 0.05) 100%); border-radius: 6px; box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.1)}
+.titoletto-gdr::before {content:'\2726'; position:absolute; top: 4px; left: 8px; font-size: 1.2em; color:var(--cinque); text-shadow: 0 0 8px var(--sette); animation:stellagdr 3s ease-in-out infinite}
+@keyframes stellagdr {0%, 100% {opacity: 0.4; transform:rotate(0deg)} 50% {opacity: 0.9; transform:rotate(180deg)}}
+
+/* Ultimi topic / topforum - struttura*/
+.ultimitopic td, .tabella-tf td {border: 0!important; background:linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(143, 190, 186, 0.05) 100%)}
+.tabella-tf {width: 100%}
+/*Ko-fi e Topforum*/
+.chocorobot, .topforum {opacity:.8}
+.chocorobot:hover, .topforum:hover {opacity: 1}
+
+.no-topforum-message {width: 230px; height: 90px; padding: 15px 20px; text-align: center; font-family: var(--titolo), cursive; font-size: 14px; font-weight: 500; line-height: 1.4; color: #E2F7C4; background: linear-gradient(135deg, #292354 0%, #3B8686 50%, var(--sette) 100%); outline: 2px solid var(--quattro); outline-offset: -4px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(207, 240, 158, 0.3); position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; text-shadow: 0 0 10px rgba(168, 219, 168, 1)}
+.no-topforum-message::before {content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle, rgba(207, 240, 158, 0.15) 1px, transparent 1px); background-size: 12px 12px; pointer-events: none; z-index: 0}
+.no-topforum-message::after {content: '\2726'; position: absolute; top: 5px; left: 10px; font-size: 15px; color: var(--quattro); opacity: 0.6; text-shadow: 0 0 8px #A8DBA8; z-index: 1}
+.no-topforum-message > * {position: relative; z-index: 1}
+
+.topbutton .forminput {background: url(https://upload.forumfree.net/i/ff13982804/Hunter/topforum.png) no-repeat!important; height: 90px; width: 230px; font-size: 0; border: none; border: 0 !important; box-shadow: none !important}
+
+/* Citazione Nessuno */
+.nessunocit {display: flex; align-items: center; justify-content: center; max-width: 1040px!important; width: min(1040px, calc(100vw - 26.5vw)); height: 35px; font-size: 20px; font-family: var(--sottotitolo); padding: 3px; color:var(--bianco); background:linear-gradient(120deg, var(--uno) 0%, var(--due) 50%, var(--sei) 100%); text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3), 0 0 20px var(--cinque); letter-spacing: 2px; position:relative; border-radius: 10px; border: 2px solid var(--tre)}
+
+.nessunocit::before {content:'\2726'; position:absolute; right: 20px; top: 50%; transform:translatey(-50%); color:var(--quattro); font-size: 1.2em; text-shadow: 0 0 10px var(--cinque); animation:nessunostella 6s linear infinite}
+@keyframes nessunostella {0% {transform:translatey(-50%) rotate(0deg)} 100% {transform:translatey(-50%) rotate(360deg)}}
+/*FINE TABELLA*/
+
+ /* SCROLLBAR */
+*::-webkit-scrollbar {width: 10px}
+*::-webkit-scrollbar-track-piece {background: var(--sette)}
+*::-webkit-scrollbar-thumb {background: var(--sei); border-radius: 3px}
+
+/* SELEZIONE colorata */
+*::selection {background: var(--due); color:var(--otto)}
+*::-moz-selection {background: var(--due); color:var(--otto)}
+*::-webkit-selection {background: var(--due); color:var(--otto)}
+
+/*BODY*/
+body {font: 76%/1.6em montserrat alternates, Verdana, Tahoma, Arial, Sans-serif; color: var(--uno); background-color:var(--sfondo); background-repeat: repeat; background-position: bottom; background-size:cover}
+a {text-decoration: none; color: var(--sei); font-weight:bold}
+.nav {font: italic 17px calibri, arial; font-weight: bold; letter-spacing: .05em; color:var(--sei)}
+.nav a {color:var(--uno)}
+#blog .nav, #forum .nav, #topic .nav {margin-bottom: 20px}
+.footer a {color: var(--otto)}
+.footer {color: var(--cinque)}
+
+/* LOGO senza cornice */
+.logo {margin: 0 0 30px 0} .logo a:hover {border: 0}
+.logobase {margin-bottom: 5px; opacity:.85}
+.logobase:hover {opacity: 1}
+
+/* LOGO con cornice */
+.header {margin-bottom: 30px; border: 1px solid rgba(0, 0, 0, .5); border-radius: 10px; box-shadow: 0 2px 6px rgba(0, 0, 0, .5)}
+.header, .header a {border-radius: 10px}
+
+/* altezza contenitore del logo ed effetto glass */
+.header a {display: table; width: 100%; height: 130px; margin: 0; padding: 0; letter-spacing: 2px; word-spacing: 4px; font: italic 39px calibri, arial; color: #EEF; text-shadow: 0 -1px 1px #000; box-shadow: inset 0 1px rgba(255, 255, 255, .3), inset 0 10px rgba(255, 255, 255, .2), inset 0 10px 20px rgba(255, 255, 255, .25), inset 0 -15px 30px rgba(0, 0, 0, .4)}
+.header a:hover {color: #FFF; background: rgba(255, 255, 255, .04); border: 0}
+
+/* posizione del testo */
+.header span {display: table-cell; padding: 0 80px; vertical-align: middle; text-align: left}
+
+/* posizione del logo */
+.header h1 {background-position: 85% 50%}
+
+/* MENU UTENTE */
+.menuwrap .left > .menu:nth-child(1) > a {background: var(--cinque); width: auto; height: 46px; margin-left: 123px; border-radius: 0; line-height: 1.8; border: 2px solid var(--sei)}
+.menuwrap .left > .menu:nth-child(2) > a {background: var(--sei); border-radius: 0; line-height: 3em; border: 2px solid var(--cinque)}
+.menuwrap .left > .menu:nth-child(3) > a {background: var(--sei); border-radius: 0; line-height: 3em; border: 2px solid var(--cinque)}
+.menuwrap .left > .menu:nth-child(4) > a {background: var(--sei); border-radius: 0; line-height: 3em; border: 2px solid var(--cinque)}
+.menuwrap .left > .menu:nth-child(5) > a {background: var(--sei); border-radius: 0; line-height: 3em; border: 2px solid var(--cinque)}
+.menuwrap .left > .menu:nth-child(6) > a {background: var(--sei); border-radius: 0; line-height: 3em; border: 2px solid var(--cinque)}
+.menuwrap {font-family: montserrat alternates, verdana, tahoma, arial, sans-serif; background: var(--sette); background: linear-gradient(180deg, var(--sette) 0%, var(--due) 100%); padding: 5px; border-bottom: 3px solid var(--sei)}
+
+.menuwrap li {line-height: 2.5em; color: var(--uno)}
+
+.menuwrap a {margin: 3px; font-size: 14px; color: var(--cinque); padding: 0 12px}
+.menuwrap .icon a {padding: 0 6px}
+
+#m_up a {padding: 0 11px 0 0}
+#c_up {position: absolute; right: 10px; bottom: 10px; opacity: .5}
+#f_up {position: fixed; bottom: 20px; right: 1%; opacity: .9; margin-bottom: 40px; margin-right: 30px}
+.p_up:hover, #c_up:hover, #f_up:hover {opacity: 1; text-decoration: none; border: 0}
+/* numero msg e link REGISTRATI */
+.menuwrap em {padding: 2px 5px; color: var(--uno); text-shadow: none; background: var(--sette); border-radius: 5px!important; border: 2px solid var(--uno)}
+
+.menuwrap .nick {font-size: 22px; color: var(--sei); font-family: var(--titolo)}
+.menuwrap form {padding: 0 11px 0 5px}
+
+.menuwrap .avatar {background-color: var(--sei); position: absolute; width: 102px; height: 102px; border: 6px solid var(--sei); top: 10px; left: 13px; transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000); min-width: 0; min-height: 0; z-index: 9!important; border-radius: 100px}
+.menuwrap .avatar img {object-fit: cover; border-radius: 0}
+.menu:hover .avatar {position: absolute!important; width: 110px; height: 110px; top: 33px; left: 18px; background-color: var(--sette); margin-top: 10px; border: 6px solid var(--sei); border-radius: 100px 0 100px 100px; margin-top: 20px; transform:rotate(360deg); z-index: 9!important}
+
+/* MENU contestuale(dropdown) */
+.menu > a:hover, .menu:hover > a {color: var(--otto)}
+.menu {padding-left: 70px}
+.menuwrap > .left > li:first-child > ul {z-index: 1; margin-left: 123px}
+.menu ul {width: 15em; background: var(--cinque); border: 4px solid var(--sei); box-shadow: 0 1px 5px rgba(0, 0, 0, .5); border-radius: 1px; margin-top: -3px; margin-left: 3px}
+.right .menu ul {position: absolute; margin-left: -110px!important}
+.menu li {padding: 3px 4px; line-height: 1.4em; text-shadow: none; border-top: 1px solid var(--cinque)}
+.menu li:first-child {border-top:none}
+.menu li strong {padding: 3px 8px; color: var(--uno)!important}
+.menu li a {padding: 3px 8px !important; font-size: 12px; color: var(--uno) !important; font-weight:bold; line-height: 1.4em!important}
+.menu li a:hover {background: var(--due); color: var(--otto)!important; border-radius: 5px}
+.left .menu ul ul {background: var(--cinque); border-color: var(--sei); border-radius: 1px; position: absolute; margin-top: -4px; left: 160px}
+/* SUB MENU contestuale(dropright) */
+/* Sposta msg pvt */
+.submenu.alternative li:first-child {padding: 3px 4px; border-top: 0}
+
+
+/* LOGIN VELOCE */
+.menuwrap label, .menuwrap form a {padding: 0; font-size: 10px}
+.menuwrap label:hover {color: #FFF}
+
+.menuwrap input {padding: 3px; font: 11px verdana, arial, sans-serif; color: #000; background: #AAA; border: 1px solid #000; border-radius: 4px; box-shadow: 0 1px 0 #444}
+.menuwrap input:hover {cursor: pointer; background: #BBB}
+.menuwrap input:focus {cursor: default; background: #DDD; outline: none; box-shadow: 0 1px 5px #888}
+
+.menuwrap input[type=submit] {padding: 2px; text-shadow: 0 -1px 0 #444; color: #DDD; border-radius: 4px;
+background: #424242; border: 1px solid rgba(0, 0, 0, .5); box-shadow: 0 2px 6px rgba(0, 0, 0, .5), inset 0 1px rgba(255, 255, 255, .3), inset 0 10px rgba(255, 255, 255, .2), inset 0 10px 20px rgba(255, 255, 255, .25), inset 0 -15px 30px rgba(0, 0, 0, .3)}
+.menuwrap input[type=submit]:hover {color: #FFF; background: #555}
+
+
+/* CERCA */
+.menuwrap .search input {color: var(--nero); background: var(--sette) url('https://upload.forumfree.net/i/ff13982804/Enchanted/Cerca.png') no-repeat 55% 50%; border: 3px solid var(--quattro); width: 45px; height: 45px; font-size: 0; border-radius: 30px; transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000)}
+.menuwrap .search input:hover {color: var(--nero); background-color: var(--sette)}
+.menuwrap .search input:focus {color: var(--nero); background-color: var(--sette); background-position: 100% 50%; width: 150px; font-size: 14px}
+
+/* LARGHEZZA BOARD */
+.container {margin: 30px auto; padding: 30px; background: var(--due); border: 10px solid var(--sei); border-radius: 0; box-shadow: 0 0 23px var(--sette)}
+.tabs.top, .tabs.bottom {}
+.container, .tabs.top, .tabs.bottom {max-width: 1040px; width: min(1040px, calc(100vw - 26.5vw))}
+/* TABS(definizioni valide per tutti i tabs, interni ed esterni al container)*/
+.tabs {font-family: var(--sottotitolo), 'Trebuchet MS', Tahoma, Verdana, Arial, Serif; letter-spacing: .05em; z-index: 9}
+.tabs li {vertical-align: bottom; margin-left: 5px}
+.tabs li:first-child {margin: 0}
+/* variante per tabs laterali non ruotati */
+.tabs.no_rotate li {margin: 0; margin-top: 5px}
+.tabs.no_rotate.alternative li {margin-top: 10px}
+.tabs a {display: block; margin: 0; padding: 2px 10px; text-decoration: none; font-weight: bold; color: var(--sei); background: var(--sette); border: 4px solid var(--sei); border-radius: 0}
+.tabs a:hover, .tabs .current a {color: var(--sei); background: var(--cinque); border: 4px solid var(--sei)}
+.tabs.top a {border-bottom: 0}
+/* variante per tabs laterali non ruotati */
+.tabs.left.no_rotate a {border: 4px solid var(--sei); border-radius: 0; border-right: 0}
+.tabs.right.no_rotate a {border: 4px solid var(--sei); border-radius: 0; border-left: 0}
+/* i tabs in basso voglio che abbiano background e border del container - No, non è vero lol */
+.tabs.bottom a {background: var(--sette); border: 4px solid var(--sei); border-radius: 0; border-top: 0}
+.tabs.bottom a:hover {background: var(--cinque)}
+/* TABS disposti attorno il container */
+/* 30px come il margin-top del container */
+.tabs.top {text-align: right; position: relative; top: 30px}
+/* 31= 30px come il margin del container e 1px per nascondere il bordo del container di 1px */
+.tabs.bottom {text-align: right; position: relative; bottom: 30px}
+/* ATTENZIONE: per sistemare la distanza dei tabs laterali dal container si suggerisce di modificare height */
+/* il padding serve a indicare da quale punto dell'asse verticale del container iniziano i tabs */
+.tabs.rotate {height: 36px; padding: 0 105px}
+.tabs.left.rotate {left: -25px}
+/* variante per tabs laterali non ruotati */
+/* 130px ha lo stesso scopo di 105px per tabs.rotate, il secondo numero, 1px, deve invece essere uguale al bordo del container */
+.tabs.no_rotate {padding: 130px 10px}
+.tabs.left a {background: var(--sette); border-bottom: 0}
+.tabs.left a:hover {background: var(--cinque)}
+/*tabs a sinistra personalizzati*/
+#tab_r1 a, #tab_r2 a, #tab_r3 a, #tab_r4 a, #tab_r5 a {line-height: 0.7em; width: 35px; height: 30px; margin-right: 5px; padding: 2px 1px; text-decoration: none; font-size: 0; font-weight: bold; color: var(--sei); background: var(--sette); border: 5px solid var(--sei); border-radius: 0; font-family: var(--sottotitolo); transition: all 900ms cubic-bezier(0.550, 0.085, 0.680, 0.530)}
+#tab_r1 a:before {font-family:material design icons; display: inline-block; color: var(--sei); font-size: 24px!important; content: "\F0A73"; font-weight:normal; line-height: 0.7; vertical-align:middle}
+#tab_r2 a:before {font-family:material design icons; display: inline-block; color: var(--sei); font-size: 24px!important; content: "\F0B0F"; font-weight:normal; line-height: 0.7; vertical-align:middle}
+#tab_r3 a:before {font-family:material design icons; display: inline-block; color: var(--sei); font-size: 24px!important; content: "\F0B1F"; font-weight:normal; line-height: 0.7; vertical-align:middle}
+#tab_r4 a:before {font-family:material design icons; display: inline-block; color: var(--sei); font-size: 24px!important; content: "\F0B0F"; font-weight:normal; line-height: 0.7; vertical-align:middle}
+#tab_r5 a:before {font-family:material design icons; display: inline-block; color: var(--sei); font-size: 24px!important; content: "\F0A73"; font-weight:normal; line-height: 0.7; vertical-align:middle}
+#tab_r1 a:hover, #tab_r2 a:hover, #tab_r3 a:hover, #tab_r4 a:hover, #tab_r5 a:hover {letter-spacing: 2px; width: 200px !important; margin-right: -185px; font-size: 12px; padding: 2px 5px; text-decoration: none; font-weight: bold; color: var(--sei); background: var(--cinque); border: 5px solid var(--sei)}
+
+/* HOMEPAGE */
+.board .skin_tbl {margin: 0}
+.board .skin_tbl.box_minus, .board .skin_tbl.box_plus, .stats .skin_tbl, .forum .skin_tbl, .fast.send .skin_tbl {background: transparent; border-radius: 5px}
+.mback {background-color: var(--sette); height: 30px}
+.mback_left, .mback_right {width: 5%}
+/* nei topic sfrutto interamente la larghezza di mback eliminando mback_left e mback_right */
+.topic .mback_left, .topic .mback_right {display: none}
+.minus, .plus {width: 32px; height: 32px}
+.plus {display:none}
+.minus {display:none}
+.board .mtitle, .stats .mtitle {margin-left: -30px}
+.mtitle {text-align: center; padding: 0; font: 22px var(--titolo), verdana, arial; font-weight: bold; color: var(--sei); background: transparent !important}
+.title, .darkbar {background: var(--sette) !important; font-weight: bold; font-size: 10px; color: var(--sei)}
+.title.top {display:none}
+.title.bottom {margin-bottom: 10px}
+/* RIGHE di COLORE ALTERNATO */
+.list:not(.send .list) > *, table.mainbg tr, .profile .skin_tbl {background: var(--sette)}
+.list:not(.send .list) > *:nth-child(even), table.mainbg tr:nth-child(even) {background: var(--sette)}
+.board .title.top {display:none}
+.big_list a {font-family: var(--sottotitolo)}
+.big_list > * {background: var(--quattro); margin: 5px}
+.big_list > *:nth-child(even) {background: var(--cinque)}
+
+.big_list > *:hover {background: var(--quattro)}
+.big_list > *:nth-child(even):hover {background: var(--cinque)}
+.web a {color: var(--sei)}
+.big_list > *:hover .web a {color:var(--uno)}
+.board .aa img {opacity: .7}
+.big_list > *:hover .aa img {opacity: 1}
+.board .off .aa {min-height: 48px}
+.board .topics {background: var(--sette); color: var(--sei)!important; text-align:center; margin-bottom: 3px}
+.board .replies {background: var(--sette); color: var(--sei)!important; text-align:center}
+.board .aa, .board .bb, .board .xx, .board .yy, .board .zz {box-sizing:content-box}
+.board div.zz {padding: 4px 0!important}
+.board .zz {width: 24%}
+.board .where {width: 110%!important; overflow:hidden; white-space:nowrap; text-overflow:ellipsis}
+.ffav_lastpost img {border: 2px solid var(--due)!important; background: var(--otto)!important; object-fit: cover}
+/* .on .off .annuncio .importante .calda .chiusa .spostata */
+/* se non si specifica .forum ha effetto anche sul blog */
+.forum .annuncio {background: var(--sette)}
+.forum .importante {background: var(--sette)}
+.forum .importante:hover, .forum .annuncio:hover {background: var(--sette)}
+.forum .title.top {display:none}
+.forum .off .aa, .forum .off img {opacity: 1}
+.forum .off:hover .aa, .forum .off:hover img {opacity: 1}
+.forum .aa, .forum .bb, .forum .xx, .forum .yy, .forum .zz {box-sizing:content-box}
+.forum .aa img {width: 36px!important}
+/* SELEZIONE RIGA: MultiQuote e Moderazione */
+/*.topic .focus {opacity: .6} <- default */
+.focus {color: var(--sette)!important; background: var(--sei) !important}
+.focus:nth-child(even) {color: var(--sette)!important; background: var(--sei) !important}
+.cp .focus *, .forum .focus *, .blog .focus .title2, .blog .focus .tags * {color: var(--sette) !important}
+.focus .web a, .focus .desc {color: var(--sette)!important}
+.post.focus {background: var(--sei)!important; color:var(--due)!important}
+.focus .aa span {color: var(--sette)!important}
+
+
+.web {font: 17px montserrat alternates, verdana, arial; font-weight:bold}
+.desc {font-weight: normal; color: var(--uno)}
+.mods {color: var(--grigio)}
+.mods a {color: var(--sei)}
+.subs {color: var(--grigio)}
+.on .web, .board .on .zz a, .forum .on .zz a {font-weight: bold}
+.spostata .web a {color: var(--sei); font-style: italic}
+
+.forum .yy, .forum .zz {color: var(--sei)}
+/* Control Panel: Messenger, UserCP e ModCP */
+.cp {color:var(--sei)}
+.cp .tabs li {padding: 0!important}
+#msg .cp .tabs li {padding: 0!important}
+.cp .tabs {text-align: left}
+.cp .tabs .current a {font-size: 13px; font-weight: bold; color: var(--quattro); text-shadow:none; background: var(--due) !important; border: 4px solid var(--sei)}
+/* edit avatar */
+.tabs2 div:hover {background: var(--quattro); color:var(--due)!important}
+.tabs2 .current div {background: var(--quattro) !important; color:var(--due)!important}
+/* non voglio che l'angolo in alto a sinistra di skin_tbl sia arrotondato perché ci sono dei tab */
+#msg .cp .skin_tbl, #user .cp .skin_tbl {border-radius: 0 5px 5px 5px}
+#msg .cp .sunbar.top, #user .cp .sunbar.top {border-radius: 0 5px 0 0}
+#msg .cp .sunbar, #user .cp .sunbar, #send .send .sunbar {padding-left: 2%; padding-right: 2%; text-align: right}
+/* INBOX: lista messaggi privati */
+#msg .cp .web {font: 14px verdana}
+#msg .cp .post {background: #F5F5F5}
+/* RISPOSTA */
+#loading .top, .summary .list .top {color: var(--sei); background: var(--sette)}
+#loading .bottom, .summary .list .bottom {border: 3px solid var(--sette); background-color: var(--otto); color: var(--sei)}
+.fast.send .sunbar {font-weight: bold; font-size: 11px; color: var(--cinque); text-shadow: none; background: var(--sei)!important}
+.fast.send .mainbg {border: 5px solid var(--sei); background:var(--cinque); margin-top: 10px}
+.fast.send .textinput {border: 3px solid var(--due); background:var(--otto)}
+.send .list {background:var(--cinque)!important}
+.send .left {color: var(--uno)}
+.send .textinput {border: 3px solid var(--sei); background:var(--otto); color:var(--uno)}
+.send .mtitle {overflow:hidden; white-space:nowrap; text-overflow:ellipsis; width: 45vw!important; padding-right: 10px}
+.sunbar {text-align: center; font-size: 13px; font-weight: bold; color: var(--cinque); background: var(--sei)!important}
+.sunbar.center {text-align: right!important}
+.darkbar {color: var(--cinque); background: var(--sei)!important}
+.sunbar.top {border-radius: 5px 5px 0 0}
+.sunbar.bottom {border-radius: 0 0 5px 5px}
+.sunbar a {color: var(--tre)}
+.sunbar a:hover {color: var(--otto)}
+.summary .list > * {border-top: 2px dashed var(--sei); padding-bottom: 4px}
+.summary .list > *:first-child {border: 0}
+.summary .list {font-size: 11px}
+.summary .nick a {color:var(--sei)}
+.summary .quote, .summary .code {font-size: 10px}
+/* SONDAGGI */
+/* line height è utile per centrare il testo verticalmente */
+.poll .list {border: 3px solid var(--due); color:var(--sette)}
+.poll li {background: var(--sette); padding: 10px; margin: 5px; color: var(--uno); font-weight:bold}
+.poll li:first-child {color:var(--sei); background:var(--quattro)!important; text-transform:uppercase; font-weight:bold; font-size: 10px}
+.poll li.max {background:var(--sei)!important; color:var(--cinque)}
+.poll li.max a {color:var(--tre)}
+.bar {background: var(--cinque); line-height: 15px; font-size: 10px; color: var(--sei) !important; border: 2px solid var(--due)}
+.bar div {background: var(--quattro)}
+.max .bar {background: var(--sette); color:var(--uno)!important}
+.max .bar div {background: var(--sei); background: var(--quattro)}
+/* DISCUSSIONI */
+.topic .mtitle {font-weight: bold} .topic .mdesc {font-weight: normal}
+
+.topic:not(.comments, .cp) .post {background: var(--otto); margin: 5px; padding: 5px}
+.topic:not(.comments, .cp) .post:first-child {border: 0}
+.topic:not(.comments, .cp) .post .title2 {background: linear-gradient(154deg, var(--cinque), var(--due))}
+.topic:not(.comments, .cp) .post .center .left {padding: 10px 10px}
+.topic:not(.comments, .cp) .post .center .right {padding: 10px 0; font-size: 13px}
+.topic:not(.comments, .cp) .post .right {padding-left: 10px !important}
+.topic:not(.comments, .cp) .post .bottom {font-size: 11px}
+
+.topic:not(.comments, .cp) .color {font-family: var(--sottotitolo); line-height: 1.8em; border: 3px solid var(--due); padding: 4px; background: var(--tre); padding-bottom: 10px!important}
+.topic:not(.comments, .cp) .color a {color: var(--sei)}
+.topic:not(.comments, .cp) .color a:hover {color: var(--due)}
+.topic:not(.comments, .cp) .color hr {height: 0; border: 0; border-top: 1px dashed var(--sei)}
+.topic:not(.comments, .cp) .edit {font-size: 10px; color: var(--uno); color: rgba(0, 0, 0, .25)}
+.topic:not(.comments, .cp) .fancytop {color:var(--sei)}
+.topic:not(.comments, .cp) .fancyborder {border: 2px solid var(--sei) !important; background: var(--cinque); border-radius: 5px; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); color:var(--sei)}
+.topic:not(.comments, .cp) .fancyborder a {color:var(--sei)}
+.topic:not(.comments, .cp) .bottomborder {border-bottom: 1px dashed var(--sei)}
+.topic:not(.comments, .cp) .signature {overflow-x:hidden; background: var(--quattro); border-radius: 0x; border: 3px solid var(--due); box-shadow: 1px 4px 0 rgba(0, 0, 0, 0.3)}
+.topic:not(.comments, .cp) .post .nick {text-align: center; white-space: normal; word-wrap: break-word; font-weight: bold; font-size: 17px; color: #888; color: rgba(0, 0, 0, .45); font-family:var(--titolo)}
+
+.color mark, #markdiv mark {cursor: pointer; background: var(--sei); padding: 2px 6px; border-radius: 5px; font-weight: 700; color: var(--cinque)}
+/* avatar e altri dettagli */
+.topic:not(.comments, .cp) .details a {color: var(--sei); font-weight:bold}
+.topic:not(.comments, .cp) .post .details {position: relative; overflow: visible !important; padding-bottom: 20px; font-size: 10px; background: url(https://upload.forumfree.net/i/ff13982804/Enchanted/AS1.png) no-repeat top left, url(https://upload.forumfree.net/i/ff13982804/Enchanted/AD1.png) no-repeat top right, url(https://upload.forumfree.net/i/ff13982804/Enchanted/BD1.png) no-repeat bottom right, url(https://upload.forumfree.net/i/ff13982804/Enchanted/BS1.png) no-repeat bottom left, url(https://upload.forumfree.net/i/ff13982804/Enchanted/AB.png) repeat-x bottom, url(https://upload.forumfree.net/i/ff13982804/Enchanted/AB.png) repeat-x top, url(https://upload.forumfree.net/i/ff13982804/Enchanted/SD.png) repeat-y left, url(https://upload.forumfree.net/i/ff13982804/Enchanted/SD.png) repeat-y right; padding: 15px; background-color: var(--quattro)}
+.topic:not(.comments, .cp) .post .avatar img {transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000); object-fit: cover; overflow: hidden; width: 100px!important; height: 100px!important; border-radius: 0; padding: 3px; border: 4px solid var(--due); background: var(--quattro); margin-top: 5px}
+.topic:not(.comments, .cp) .post .avatar:hover img {width: 100px!important; height: 100px!important; padding: 0!important; border-radius: 100px; transform: rotate(-30deg)}
+.topic:not(.comments, .cp) .u_title {display:none}
+
+
+/* online, offline, anonimo */
+.topic:not(.comments, .cp) .details .br_status {display: none}
+.topic:not(.comments, .cp) .details p {margin-top: 5px}
+.topic:not(.comments, .cp) .details p br {display:none}
+.topic:not(.comments, .cp) .details dt {display:none}
+.topic:not(.comments, .cp) .details > dl {display: block; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: center; text-transform: lowercase; font-variant: small-caps; padding: 4px 0; font-size: 12px; font-weight:bold!important; color: var(--sei); padding-right: 6px; width: 160px}
+
+.topic:not(.comments, .cp) .details .u_rank i {font-size: 15px!important}
+.topic:not(.comments, .cp) .u_group, .topic:not(.comments, .cp) .u_posts, .topic:not(.comments, .cp) .u_reputation {background:var(--sette); border-bottom: 3px dashed var(--quattro); padding: 3px 0; color: var(--due)}
+.topic:not(.comments, .cp) .details p, .topic:not(.comments, .cp) .u_status {background: var(--cinque); padding: 3px 0; color: var(--uno); font: 15px roboto}
+.topic:not(.comments, .cp) .u_group {margin-top: -5px; font-size: 15px!important}
+.topic:not(.comments, .cp) .u_status {margin-top: 10px; text-align:center!important; font-size: 15px!important; font-weight:bold!important}
+.topic:not(.comments, .cp) .u_status dt, .topic:not(.comments, .cp) .details .u_location {display:none}
+.topic:not(.comments, .cp) .u_reputation {border-bottom:none}
+/* CITAZIONI, SPOILER e CODICI annidati */
+.quoteentry img {width: 60px; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)!important; height: 60px; float: left; margin-top: 10px; margin-right: 10px; margin-left: 30px; padding: 2px; border: 3px solid var(--due)!important; border-radius: 10px; background: var(--quattro)!important; object-fit: cover!important}
+#ffav_quote {padding-left: 10px !important; padding-bottom: 55px !important}
+[class~=code] li {background-color:rgba(0, 0, 0, .1)}
+[class~=code] li:nth-child(2n) {background-color:rgba(0, 0, 0, .2)}
+.select_code {color:var(--sei)!important}
+.select_code:before {content:'('; color: var(--sei)}
+.select_code:after {content:')'; color: var(--sei)}
+/* 1° livello */
+.quote, .spoiler .code {padding: 5px; font-size: 9pt; font-weight: normal; color: var(--uno); background: var(--cinque); border-radius: 5px; border: 2px solid var(--sei); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.code {padding: 5px; font-size: 9pt; font-weight: normal; color: #999; background: #505050; border-radius: 5px; border: 2px solid var(--sette); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+/* 2° livello */
+.quote .quote, .spoiler .quote, .quote .spoiler .code {color: var(--uno); background: var(--quattro)}
+ .code .code {color: #999; background: #505050}
+/* 3° livello */
+.quote .quote .quote, .quote .quote .code,
+.spoiler .quote .quote, .spoiler .quote .code,
+.quote .spoiler .quote, .quote .code .code {color: var(--uno); background: var(--cinque)}
+ .quote .code .code, .spoiler .quote .code, .quote .quote .code {color: #999; background: #505050}
+/* 4° livello */
+.quote .quote .quote .quote, .quote .quote .quote .code,
+.spoiler .quote .quote .quote, .spoiler .quote .quote .code,
+.quote .spoiler .quote .quote, .quote .spoiler .quote .code,
+.quote .quote .spoiler .quote, .quote .quote .code .code,
+.quote .quote .quote .code {color: var(--uno); background: var(--quattro)}
+.quote .quote .quote .code, .quote .quote .code .code, .quote .spoiler .quote .code, .spoiler .quote .quote .code, .quote .quote .quote .code {color: #999; background: #505050}
+
+
+.quote_top, .code_top {font-size: 11px; color: var(--sei); margin: 1em; background-color: var(--sette); border-radius: 5px; border: 2px solid var(--sei); padding-left: 5px; padding-top: 3px; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.quote_top a, .code_top a {color: var(--uno)!important}
+.quote_top a:hover, .code_top a:hover {color: var(--sei)!important}
+/* 1° livello */
+.quote_top:before {content:'\275D'; position: relative; top: 10px; margin-right: 5px; font-size: 40px; font-family: 'Times New Roman'}
+.spoiler .code_top:before {display: inline-block; font-size: 22px!important; color: var(--sei); text-rendering: auto; -webkit-font-smoothing: antialiased; font: var(--fa-font-solid); content: "\f06a"; padding-right: 5px}
+.code_top:before {display: inline-block; font-size: 20px!important; color: var(--sei); text-rendering: auto; -webkit-font-smoothing: antialiased; font: var(--fa-font-solid); content: "\f5fc"; padding-right: 5px}
+.code_top:after {color: #CCC; content:''; position: relative; top: 1px; margin-left: 6px; font-size: 17px; font-family: arial; font-weight: bold}
+.spoiler .code_top:after {content:''}
+/* 2° livello */
+.quote .quote_top:before, .quote .code_top:before, .quote .code_top:after,
+.spoiler .quote_top:before, .code .code_top:before, .code .code_top:after {color: var(--sei)}
+/* 3° livello */
+.quote .quote .quote_top:before, .quote .quote .code_top:before, .quote .quote .code_top:after,
+.spoiler .quote .quote_top:before, .spoiler .quote .code_top:before, .spoiler .quote .code_top:after,
+.quote .spoiler .quote_top:before, .quote .code .code_top:before, .quote .code .code_top:after {color: var(--sei)}
+/* 4° livello */
+.quote .quote .quote .quote_top:before, .quote .quote .quote .code_top:before, .quote .quote .quote .code_top:after,
+.spoiler .quote .quote .quote_top:before, .spoiler .quote .quote .code_top:before, .spoiler .quote .quote .code_top:after,
+.quote .spoiler .quote .quote_top:before, .quote .spoiler .quote .code_top:before, .quote .spoiler .quote .code_top:after,
+.quote .quote .spoiler .quote_top:before, .quote .quote .code .code_top:before, .quote .quote .code .code_top:after,
+.quote .quote .quote .code_top:before, .quote .quote .quote .code_top:after {color: var(--sei)}
+/* BLOG */
+.blog .skin_tbl {background: var(--otto); border: 3px solid var(--sette)}
+/* se il blog non ha sidebar, #centerdiv non viene usato */
+#centerdiv {margin: 10px 190px} .sidebar {width: 175px; font-size: 11px}
+.blog .article {padding: 20px 0; border: 3px solid var(--due)}
+.blog .article:first-child {padding-top: 10px}
+.btitle {margin-bottom: 5px; line-height: 1.8em; text-align:center!important}
+.btitle a {font: 40px var(--titolo), verdana, arial; color: var(--sei)}
+.bdesc {margin-top: -5px; font: 22px var(--sottotitolo), verdana, arial; color: var(--due)}
+.on .btitle {font-weight: bold}
+.article .title2 {font-size: 10px; color: var(--grigio)}
+.article .title2 a {font-weight: bold; color: var(--sei)}
+/* è necessario scrivere a:link e a:visited in questo caso, altrimenti i link avrebbero il colore di .title2 a */
+.tags, .tags a:link, .tags a:visited {font-size: 10px; font-weight: normal; color: var(--due)}
+.color .tags {font-size: 11px}
+/* data */
+/* spostare 'display: none; ' da '.article .top .avatar' a .article .top .when' per mostrare l'avatar sotto il titolo invece del calendario */
+.article .title2.top {position: relative; padding-left: 54px}
+.article .top .avatar {display: none; position: absolute; top: 2px; left: 5px}
+.article .top .when {position: absolute; top: 2px; left: 5px; width: 41px; height: 44px; text-align: center; font-weight: bold; background: url('https://upload.forumfree.net/i/ff13982804/Enchanted/calendar.png') no-repeat center}
+.article .top .when > *:first-child, .blog .top .when .d_month * {display: none}
+.article .top .when * {width: 100%; position: absolute; left: 0}
+.article .top .when .d_day {top: 12px; font-size: 9px; color: var(--due)}
+.article .top .when .d_month *:first-child {display: block; top: 23px; font-size: 9px; color: var(--due)}
+.article .top .when .d_year {top: -2px; font-size: 8px; color: var(--bianco)}
+/* punti, commenti e visite */
+.article .top .right span {display: inline-block; vertical-align: middle; text-align: center}
+.article .top .right a {font-weight: normal}
+.article .top .right a:hover {border: 0}
+.article .top .right em {display: block; font-weight: bold; font-size: 17px}
+.article .color {margin: 5px 0 20px; text-align: justify; line-height: 1.85em; font-size: 13px; color:var(--uno)}
+.article .color .edit {color: var(--uno)}
+
+.comments .post {border: 3px solid var(--sette)!important; background-color:var(--otto); margin-top: 15px; padding: 3px!important; border-radius: 0}
+.comments .post .title2 {background: linear-gradient(154deg, var(--cinque), var(--due))}
+.comments .post .center .left {padding: 10px 10px}
+.comments .post .center .right {padding: 10px}
+.comments .post .color {background:var(--quattro); border: 3px solid var(--due)!important; padding: 2px}
+.comments .signature {display:none}
+.comments .color {color: var(--uno)}
+.comments .post .top .left {padding-left: 10px !important}
+.comments .post .bottom .left {font-size: 11px}
+.comments .post .center .left {padding-top: 10px!important}
+.comments .post .bottom .right {font-size: 11px}
+.comments .post .bottom {}
+.comments .post .top .right a {font-size: 11px}
+.comments .post .top .right .mini_buttons span {font-size: 15px!important; margin: 0; padding: 0}
+.comments .post .top .right .mini_buttons .when {font-size: 11px!important; margin: 0; padding: 0}
+.comments .post {padding: 0 0; background:}
+.comments .post:nth-child(even) {background:}
+.comments .post .title2 {font-size: 11px}
+.comments .post .right {padding-left: 1%}
+.comments .post .center .left {min-width: 0}
+.comments .nick {font: 16px roboto; word-wrap: break-word; overflow: hidden; text-align:center; color:var(--sei)}
+.comments .nick a {color: var(--sei)}
+.comments .avatar * {max-width: 100px}
+.comments .avatar img {height: 100px !important; width: 100px !important; border: 3px solid var(--due); object-fit:cover; padding: 3px; border-radius: 20px; background-color:var(--otto); box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.3)}
+.comments .u_group, .comments .u_posts, .comments .u_reputation {background:var(--sette); border-bottom: 3px dashed var(--otto); padding: 3px 0; color: var(--sei)}
+.comments p, .comments .u_status {background: var(--cinque); padding: 3px 0; color: var(--sei); font: 15px roboto; width: 100%}
+.comments .u_status {margin-top: -10px}
+.comments .u_location, .comments .u_title {display:none}
+.comments p {margin-top: 8px; margin-bottom: 8px}
+.comments p br {display:none}
+.comments .u_reputation {border-bottom:none}
+.comments .mini_buttons a {color: var(--sei)}
+.comments .details dt {display:none}
+.comments .details a {color: var(--sei)}
+.comments .sunbar {margin-top: 10px; background-color:var(--sette)!important; color:var(--due)!important}
+/* BLOG WIDGET */
+.sidebox {margin: 0 0 20px 0 !important; padding: 5px; background: var(--quattro); border-radius: 8px; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); border: 3px solid var(--sette)}
+.stitle {padding: 0 0 5px 0; text-align: center; font: 18px roboto, verdana, arial; font-weight: normal; color: var(--sei); background: transparent !important}
+.stitle a {color: var(--sette)}
+.sidebox li {padding: 2px 0}
+.sidebox .avatar img {height: 100px !important; width: 100px !important; border: 3px solid var(--due); object-fit:cover; padding: 3px; margin-top: 3px; border-radius: 8px; background-color:var(--quattro)}
+.side_profile .stitle a {font-family: var(--titolo)!important; font-size: 16px; color: var(--sei)}
+.side_profile .u_group, .side_profile .u_posts, .side_profile .u_reputation {background:var(--sette); border-bottom: 3px dashed var(--quattro); padding: 3px 0; color: var(--sei)}
+.side_profile p, .side_profile .u_status {background: var(--otto); padding: 3px 0; color: var(--sei); font: 15px roboto}
+.side_profile .u_status {margin-top: 10px}
+.side_profile .u_status dt, .side_profile .u_location {display:none}
+.side_profile .u_reputation {border-bottom:none}
+.sidebox .mini_buttons a {color: var(--due)}
+/* widget sottosezioni, ultimi commenti ed etichette */
+.side_list > *:nth-child(odd), .side_list > *:nth-child(odd) a {color: var(--due)}
+.side_list a {color: var(--sei)}
+/* widget calendario */
+.side_calendar {padding: 5px; background: var(--quattro)}
+.side_calendar .stitle {padding-bottom: 5px}
+.side_calendar tr {text-align: center; background: var(--sette); color: var(--sei)}
+.side_calendar td {font-size: 9px; background: var(--sette)}
+.side_calendar td:nth-child(even) {background: var(--sette)}
+.side_calendar .current {font-weight: bold; color: var(--otto); background: var(--sei) !important}
+/* widget sondaggio e tagbard */
+.sidebox .list {font-size: 10px}
+/* widget sondaggio */
+.side_poll {padding: 5px 1px 1px 1px}
+.side_poll .stitle {padding-bottom: 5px}
+/* widget tagboard */
+.side_tag {padding: 5px 0 1px 1px}
+.side_tag .stitle {padding-bottom: 5px}
+.side_tag .ffav_tag {display:none}
+.side_tag .when {display:none}
+.side_tag a {color: var(--sei); font-family: roboto; font-size: 13px}
+.side_tag .list {border: 2px solid var(--due); background: var(--otto)}
+.side_tag li:nth-child(odd) {background: var(--quattro)!important; border: 2px solid var(--due); margin: 2px; padding: 2px; color: var(--sei)}
+.side_tag li:nth-child(even) {background: var(--cinque)!important; border: 2px solid var(--due); margin: 2px; padding: 2px; color: var(--sei)}
+.side_tag .textinput {background:var(--otto); border: 2px solid var(--due)}
+/*Messaggi Privati*/
+.cp .bb {padding-left: 15px}
+.cp .aa, .cp .bb, .cp .xx, .cp .yy, .cp .zz {box-sizing:content-box}
+#msg .cp li {padding: 5px}
+#msg .post {border: 3px solid var(--sette)!important; background-color:var(--otto); margin-top: 15px; padding: 3px!important}
+#msg .post .title2 {background: linear-gradient(154deg, var(--cinque), var(--due))}
+#msg .post .left {max-width: 300px; min-width: 150px}
+#msg .post .center .left {padding: 0 10px}
+#msg .post .center .right {padding: 10px}
+#msg .post .color {background:var(--quattro); border: 3px solid var(--due)!important; padding: 2px}
+#msg .signature {display:none}
+#msg .color {color: var(--uno)}
+#msg .post .top .left {padding-left: 10px !important}
+#msg .post .bottom .left {font-size: 11px}
+#msg .post .center .left {padding-top: 10px!important}
+#msg .post .bottom .right {font-size: 11px}
+#msg .post .bottom {}
+#msg .post {padding: 0 0; background:}
+#msg .post:nth-child(even) {background:}
+#msg .post .title2 {font-size: 11px}
+#msg .post .right {padding-left: 1%; color: var(--sei)}
+#msg .post .center .left {min-width: 0}
+#msg .post .nick {font: 16px roboto; word-wrap: break-word; overflow: hidden; text-align:center; color:var(--sei)}
+#msg .post .nick a {color: var(--sei)}
+#msg .details .avatar * {max-width: 100px; margin-bottom: 15px}
+#msg .details .avatar img {height: 100px !important; width: 100px !important; border: 3px solid var(--due); object-fit:cover; padding: 3px; border-radius: 20px; background-color:var(--otto); box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.3)}
+#msg .u_group, #msg .u_posts, #msg .u_joined {background:var(--sette); border-bottom: 3px dashed var(--otto); padding: 3px 0; color: var(--sei)}
+#msg p, #msg .u_status {display:none}
+#msg .u_location, #msg .u_title {display:none}
+#msg .u_joined {border-bottom:none; margin-bottom: 5px!important}
+#msg .mini_buttons a {color: var(--sei)}
+#msg .details dt {display:none}
+#msg .sunbar {background-color:var(--sette)!important; color:var(--due)!important}
+/* TAGBOARD e CHAT */
+.tag .mback {margin-bottom: 8px}
+.tag, .chat {margin-bottom: 30px}
+.tag .list, .side_tag .list {font-size: 13px; padding: 0}
+.tag a {color: var(--uno); font-family: roboto; font-size: 10px; font-weight:bold}
+.tag .mainbg {background-color: var(--due); padding: 2px; border: 3px solid var(--sette)}
+.tag .list {border: 3px solid var(--sei); margin: -2px -2px 0 -2px; border-radius: 5px}
+.tag .when {float: right; line-height: 0; padding: 8px 13px 8px 13px; color: var(--sei); font-weight:bold; background: var(--sette); border-radius: 5px; border: 2px solid var(--due); filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.3))}
+.tag a b {color: var(--uno); margin-right: 5px; font-size: 10px; letter-spacing: 1px; text-transform:uppercase}
+.tag li:nth-child(odd) {position:relative; margin-bottom: 3px; padding: 5px; color: var(--uno); font-size: 10px; letter-spacing: 1px; border: 2px solid var(--sette); background: var(--quattro)!important; margin: 6px; border-radius: 5px; min-height: 52px}
+.tag li:nth-child(even) {margin-bottom: 3px; padding: 5px; color: var(--unp); font-size: 10px; letter-spacing: 1px; border: 2px solid var(--sette); background: var(--cinque)!important; margin: 6px; border-radius: 5px; min-height: 52px}
+.tag .ww td > *:nth-child(6) {width: 70px!important} /* colore*/
+.tag .ww {height: 35px!important; margin-bottom: -2px}
+.tag .ww {text-transform:uppercase; font-size: 10px; font-family:arial; padding: 3px; background:var(--sette); border-radius: 0; width: 100.5%; margin-left: -2px}
+.tag .textinput {height: auto; background: var(--otto)!important; color: #5A4E3A!important; font-size: 12px; border: 2px solid var(--due)!important; max-width: clamp(30vw, calc(3vw - 10px), 50vw); margin-left: 20px; border-radius: 10px; padding-left: 5px!important; padding-right: 5px!important; filter: drop-shadow(4px 4px 0 rgba(0, 0, 0, 0.3)); box-shadow:none}
+.tag li img:first-child {display: inline-block!important}
+.tag .codebuttons {padding: 1px; border-radius: 10px; width: 40px; height: 40px; background-color: var(--otto); font-size: 12px; color: var(--due); font-weight:bold; font-family:roboto; border: 2px solid var(--due); filter: drop-shadow(2px 4px 0 rgba(0, 0, 0, 0.3)); box-shadow:none}
+.tag .codebuttons:hover {border: 2px solid var(--due); background-color: var(--quattro)}
+.tag tr br {display: none}
+.ffav_tag img {object-fit: cover!important; border: 2px solid var(--due); background: #0000; padding: 1px; width: 38px!important; height: 36px!important; border-radius: 5px}
+.ffav_tag {border: none!important; background: #0000!important; width: 38px!important; height: 36px!important; float:left}
+/* LISTA UTENTI ONLINE */
+.online .yy a {font-weight: bold}
+/* STATISTICHE */
+#board .skin_tbl.top .mtitle b:before {content: "Connessi al Sito degli Hunters: "; font-weight: bold!important; font: 22px var(--titolo)}
+#board .skin_tbl.top .mtitle b {font-weight: bold!important; font: 22px var(--titolo)}
+#board .skin_tbl.top .mtitle {font-size: 0}
+#board .stats {margin-top: 20px; font-family: var(--sottotitolo)}
+#board .stats .list > * {background: var(--quattro); margin: 10px; padding: 1px; color: var(--uno)}
+#board .stats .mback {background-color: var(--sette)!important; border-radius: 0!important; min-height: 40px!important}
+#board .stats a {color: var(--sei)}
+#board .stats a:hover {color:var(--uno)}
+.list:not(.tag .list) > *, table.mainbg tr, .profile .skin_tbl {border-radius: 0}
+.stats .bottom:not(.day_user) .zz > div:first-child br, .stats .bottom .aa {display: none}
+.stats .bottom:not(.day_user) .zz {width: 106%; box-sizing: border-box}
+.stats .bottom:not(.day_user) .zz > div:first-child {font-size: 0; color: transparent; text-align: center; margin-left: -60px}
+.stats .bottom:not(.day_user) .zz > div:first-child > * > * {font-size: 10pt; color: var(--uno)}
+.stats .bottom:not(.day_user) .zz > div:first-child > * {display: inline-block; margin: 2px; border-left: 1px dotted rgba(0, 0, 0, .5); padding: 10px 0; width: 11%; text-align: center}
+.stats .bottom:not(.day_user) .zz > div:first-child > span:first-child {border: none}
+.stats .aa {box-sizing:content-box; padding: 9px!important; width: 8%}
+.stats .aa img {width: 64px!important; height: 100px}
+.stats #top a > b, .stats .bottom .lastreg dd span, .stats .bottom .usersrecord span:nth-child(3), .stats .bottom .zz > div:first-child > * > b, .stats .bottom .lastreg a {display: block !important}
+.stats .bottom .usersrecord span, .stats .bottom .lastreg dt, .stats #monthly_visits > span:first-child, .stats #top > span:first-child {display: none}
+.stats .bottom .usersrecord span:nth-child(3) {display: block !important}
+.lastreg a {white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-left: 3px}
+#dailyusers.dailyusers .dailyusers-member img, #dailyusers.dailyusers .dailyusers-member-link img {object-fit:cover!important; border: 3px solid var(--due)!important; background: var(--otto)!important; padding: 2px!important}
+.ffav_stats {padding: 2px!important; border: 3px solid var(--due)!important; background: var(--otto)!important; width: 36px!important}
+.ffav_stats img {object-fit:cover!important; width: 26px!important; height: 26px!important}
+.online .aa img {object-fit:cover!important; border: 3px solid var(--due); padding: 2px; background-color: var(--otto); width: 40px; height: 40px}
+.online {color:var(--uno)}
+.online:hover {color:var(--uno)}
+.online .bb a {font-weight:normal}
+/* simbolo tra un nick e il successivo */
+.users li:before {content:' \2022 '; color: var(--sei); font-weight: bold; margin-right: 3px; margin-left: 3px; font-size: 18px} .users li:first-child:before {content:''}
+/* COLORI UTENTI */
+/*Gruppo 1*/
+.founder, .amministratore, .gruppo1 {color: #C7F8E3!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 2*/
+.moderatore, .gruppo2 {color: #99F9CF!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 3*/
+.gruppo3 {color: #BCFFBF!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 4*/
+.gruppo4 {color: #D6F999!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 5*/
+.gruppo5 {color: #F9D899!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 6*/
+.gruppo6 {color: #F9B999!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 7*/
+.gruppo7 {color: #F99999!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 8*/
+.gruppo8 {color: #F999B4!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 9*/
+.gruppo9 {color: #F999DB!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 10*/
+.gruppo10 {color: #DF99F9!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 11*/
+.gruppo11 {color: #B799F9!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Gruppo 12*/
+.gruppo12 {color: #99A5F9!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+/*Utenti Base*/
+.daconvalidare, .member, .utente:not(span.utente) {color: #FFF!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px}
+
+.groups dd:before, .groups dd:after {display:none}
+.groups dd {margin-bottom: 10px}
+dd.topmembers {display: none}
+/* REGISTRAZIONE RAPIDA */
+.reg {margin-bottom: 30px; padding: 2px; background: #888; border: 1px solid #DDD; border-radius: 5px}
+.reg .skin_tbl {border: 0}
+/* AVVISI */
+/* pop up */
+.popup > div {background: #FBFBFB}
+#redirect .info {border: 1px solid #FFF}
+.navsub .info {font-size: .8em}
+.alert, .info {border-radius: 5px}
+.alert {padding: 1em; background: #ECC !important; color: #C00 !important}
+.info {padding: .5em; background: #E5F1F5 !important; color: #146AAE !important}
+.alert a, .info a {color: #000}
+.alert a:hover {border-bottom: 1px solid #C00}
+/* PROFILO */
+.profile .tabs {display: flex;
+ justify-content: right; margin-bottom: 5px}
+.profile .tabs a {box-sizing:content-box; padding: 0; position: relative; width: 40px; height: 40px; color: transparent; font-size: 0; font-family: fontawesome; border-radius: 100%; transform: scale(0.8); -ms-transform: scale(0.8); -webkit-transform: scale(0.8)}
+.profile .tabs a:hover, .profile .tabs .current a {transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1)}
+.profile .tabs a:before {content: "\f02e"; top: 12px; left: 13px; position: absolute; font-size: 20px; font-weight: normal; color: var(--sei)}
+.profile #t1 a:before {content: "\f05a"; top: 11px; left: 10px}
+.profile #t2 a:before {content: "\f200"; top: 11px; left: 9px}
+.profile #t3 a:before {content: "\f4ad"; top: 10px; left: 11px}
+.profile #t4 a:before {content: "\f040"; top: 11px; left: 12px}
+.profile #t5 a:before, .profile.album #t2 a:before {content: "\f03e"; top: 11px; left: 10px}
+.profile #t102 a:before {content: "\f6fa"; top: 11px; left: 9px}
+.profile #t104 a:before {content: "\f03d"; top: 11px; left: 10px}
+.profile #tnb1 a:before {content: "\f086"; top: 10px; left: 10px}
+.profile.album #t3 a:before {content: "\f1c5"; top: 10px; left: 13px}
+.profile #t205 a:before {content: "\f1e0"; top: 11px; left: 11px}
+.profile #t206 a:before {content: "\f1b0"; top: 11px; left: 10px}
+
+.profile .skin_tbl {display: grid; grid-template-columns: 1fr 4fr; justify-content: start; gap: 0; background: var(--quattro)!important; padding: 5px; padding-top: 10px}
+.profile .avatar img {height: 120px !important; width: 120px !important; border: 3px solid var(--otto); object-fit:cover; padding: 3px; margin-top: 5px; transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000); border-radius: 20px; background-color:var(--due)}
+.profile .avatar {filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.3))}
+.profile .avatar:hover img {border-radius: 100px; transform: rotate(-20deg)}
+ .box_anonimo .profile .avatar::after {content: ''; position: absolute; margin-left: -15px!important; top: 5px; width: 20px!important; height: 20px; border: 3px solid var(--uno); background:var(--anonimo); border-radius: 100%; z-index: 9}
+ .box_online .profile .avatar::after {content: ''; position: absolute; margin-left: -15px!important; top: 5px; width: 20px!important; height: 20px; border: 3px solid var(--uno); background: var(--online); border-radius: 100%; z-index: 9}
+ .box_offline .profile .avatar::after {content: ''; position: absolute; margin-left: -15px!important; top: 5px; width: 20px!important; height: 20px; border: 3px solid var(--uno); background: var(--offline); border-radius: 100%; z-index: 9}
+.profile .right {border: 5px solid var(--due); background-color: var(--otto); overflow-x: hidden !important; width: auto!important; min-height: 350px; color: var(--sette); border-radius: 0 20px 20px 0; box-shadow: 4px 3px 0 rgba(0, 0, 0, 0.3)}
+.profile .nick {line-height: 1em; margin-top: 5px; display: block; color: var(--otto); font: 18px var(--titolo); font-weight: bold; text-shadow: none; margin-bottom: 2px}
+.profile dl {font-size: 11px}
+.profile .left {width: 100% !important; padding: 4px; min-height: 350px; margin-right: 0; background: var(--due); border-radius: 20px 0 0 20px; box-shadow: 4px 3px 0 rgba(0, 0, 0, 0.3)}
+.profile .left dt {color: #8B90CA; font-weight:bold!important; font: 12px verdana; text-transform: lowercase; font-variant: small-caps; background: #282828; padding: 6px; text-align: left; line-height:}
+.profile .left > dl {display: block; background: #8B90CA; width: 92%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: left; text-transform: lowercase; font-variant: small-caps; padding: 1px 0; border: 5px solid #282828; font-size: 12px; font-weight:bold!important; color: #282828; font-family:verdana}
+.profile .left dd, a {transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000)}
+.profile .left dd:hover, a:hover {}
+.profile .left .mini_buttons a {display: block; width: 100%; margin: auto !important; text-transform: uppercase; font-size: 11px !important; font-family: calibri !important; color: var(--due); background: var(--otto); margin-top: 0 !important; padding-top: 2px; padding-bottom: 2px}
+.profile .u_status {display:none!important}
+.profile .list {border: 4px solid var(--due); border-radius: 0 10px 10px 0; overflow:hidden}
+.profile .right dl {background:var(--sette)!important; margin: 6px 0; padding: 6px; color: var(--sei)}
+.profile .right dl:hover {background:var(--due)!important; color:var(--otto)}
+.profile .right dl:hover a {color:var(--otto)}
+.profile .right dl:first-child, .profile .right dl:last-child {margin: 0}
+.profile dl.rep_pos dd a, .profile dl.rep_neg dd a {color:var(--sei)!important}
+.profile .mysocials-list {margin: 0; padding: 20px 0; background-color: var(--sette)!important}
+.profile .mypets-list {margin: 0; padding: 20px 0; background-color: var(--sette)!important}
+/* NUMERI PAGINA indicati accanto al TITOLO di un TOPIC */
+.pages2 {font-size: 10px} .pages2:before, .pages2:after {content:''}
+.pages2 li {margin: 0 .2em; padding: 0}
+.pages2 li:first-child a {background: transparent; border: 0}
+/* indicando a:link e a:visited i numeri rimangono colorati di nero anche se la riga viene selezionata e ha classe .focus */
+.pages2 a:link, .pages2 a:visited {opacity: 1; padding: 1px 4px; color: var(--otto) !important; text-shadow: none !important; background: var(--sei); border: 2px solid var(--sei)}
+.pages2 a:hover {background:var(--due); color: var(--otto) !important; border: 2px solid var(--due)}
+/* NUMERI PAGINA esterni alle tabelle */
+.top .pages {text-align: center; padding-bottom: 15px}
+.bottom .pages {text-align: center; padding-top: 20px}
+.left .pages {padding: 0}
+.pages {font-size: .8em}
+.pages li {margin: 0 .2em; padding: 0; vertical-align: middle}
+.pages .current:before, .pages .current:after, .pages .lastpost:before, .pages .lastpost:after {content:''}
+.pages li a, .pages .current {padding: 2px 5px; font-size: 1.1em; color: var(--sei); background: var(--otto); border: 1px solid var(--otto); border-radius: 0}
+.pages li a:hover {background: var(--otto); border-color: var(--otto)}
+.pages .current {font-size: 1.2em; color: var(--uno); background: var(--otto); border: 1px solid var(--otto)}
+.pages .jump a, .pages .lastpost a {font-size: .9em; color: var(--sei); background: var(--otto); border-color: var(--otto)}
+.pages .jump a:hover, .pages .lastpost a:hover {color: var(--sei); background: var(--otto); border-color: var(--otto)}
+.pages .first a, .pages .last a {background: var(--otto); border-color: var(--otto)}
+.pages .first a:hover, .pages .last a:hover {background: var(--otto); border-color: var(--otto)}
+/* INPUT e BOTTONI */
+.codebuttons, .forminput, .textinput {padding: 3px; font: .9em verdana, arial, serif; color: var(--sei); background: var(--otto); border: 2px solid var(--due); border-radius: 3px; filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.3))}
+textarea.textinput {padding: 4px; line-height: 2em; font: 1em verdana, arial, serif}
+/* bagliore azzurro */
+.forminput[type=text], .forminput[type=password], .textinput {transition: all .4s ease; -moz-transition: all .4s ease; -o-transition: all .4s ease; -webkit-transition: all .4s ease}
+.textinput:focus, .forminput[type=text]:focus, .forminput[type=password]:focus {outline: none; border-color: var(--sette); box-shadow: 0 0 8px var(--due)}
+/* bbcode */
+.codebuttons {padding: 2px} .codebuttons:hover {background: var(--otto); border: 2px solid var(--due)}
+/* form di accesso a Inbox, Sent Items... */
+.sunbar .forminput {color: var(--otto); background: var(--sei); border: 1px solid var(--uno); padding: 0; box-shadow: none}
+.sunbar .forminput:hover {background: var(--due); border-color: var(--due)}
+/* form sotto bottone Nuova Disc. */
+.navsub form {font-size: .8em}
+.navsub .forminput {color: var(--sei); background: var(--sette); border: 2px solid var(--due)}
+.navsub .forminput:hover, .navsub .forminput:focus {background: var(--otto)}
+/* form di ordinamento in fondo alle sezioni */
+.title .forminput {padding: 2px; color: var(--otto); background: var(--due); border: 2px solid var(--sei)}
+.title .forminput:hover {background: var(--sette)}
+.title input.forminput {font-weight: bold; color: var(--sei); background:var(--sette); border: 2px solid var(--due)}
+.title input.forminput:hover {background: var(--cinque)}
+/* bottone invio risposta */
+.darkbar .forminput, .fast.send .forminput {color: var(--sei); background: var(--sette); border: 2px solid var(--uno)}
+.darkbar .forminput:hover, .fast.send .forminput:hover {background: var(--cinque)}
+.darkbar .forminput {padding: 5px; font-size: 12px; border: 2px solid var(--uno) !important}
+.darkbar input.forminput, .fast.send input.forminput {background: var(--sette); box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3)}
+/* bottone preview */
+.darkbar button.forminput {color: var(--sei); background: var(--cinque); box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3)}
+.darkbar button.forminput:hover {color: var(--sei); background: var(--sette)}
+/* Nuova Disc. e Rispondi */
+.buttons {padding: 10px 2px} .sidebar .buttons {padding: 10px 0 0 0}
+.buttons a {border: 0; margin-left: 12px}
+.buttons a:first-child {margin: 0}
+/* bordo e sfondo dei bottoni viene assegnato a '.buttons span' invece che a '.buttons a' perché nel caso in cui nel pannello amministrativo delle immagini venissero messi dei bottoni, gli effetti sarebbero applicati anche a loro, ma questo non lo vogliamo */
+.buttons span {padding: 3px 5px; font-size: 15px; color: var(--sette); background: var(--uno); border: 2px solid var(--uno); border-radius: 5px; filter: drop-shadow(2px 1px 0 rgba(0, 0, 0, 0.3))}
+.buttons span:hover {background: var(--sei); border-color: var(--sei)}
+/* MP, E-mail, Web... */
+.mini_buttons a {border: 0; line-height: 2.5em; font-weight: bold; font-size: 10px}
+.post .mini_buttons a {line-height: 1em; font-size: 11px}
+/* .mini_buttons > * seleziona anche il bottone di Facebook */
+.mini_buttons > * {margin-left: 10px}
+.post .mini_buttons > * {margin-left: 12px}
+.post .bottom .mini_buttons > * {margin-left: 14px}
+.mini_buttons > *:first-child {margin: 0 !important}
+/* scritta multiquote */
+.title2 label {font-weight: bold}
+/*Lancio dei dadi & PopUp Lancio dadi*/
+.ff-modal {background: var(--otto); border: 3px solid var(--due); border-radius: 20px; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); color:var(--sei)}
+.ff-modal .info {background:var(--sette)!important; color:var(--uno)!important; border: 3px solid var(--due); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); border-radius: 10px}
+.ff-modal .forminput, .ff-modal .codebuttons {border: 3px solid var(--sei)!important; border-radius: 10px!important}
+.dice-low {color:var(--dicelow)!important}
+.dice-highest {color:var(--dicehighest)!important}
+.dice-medium {color:var(--dicemedium)!important}
+.dice-high {color:var(--dicehigh)!important}
+.dice-roll summary > span:before {content: '\1F3B2'; font-size: 20px}
+/*Details & Summary*/
+details {margin-bottom: 10px}
+details:focus, summary:focus {outline: none}
+summary p, details p {margin-left: 18px}
+summary {background:var(--sette)!important; max-width: 800px; border: 2px solid var(--uno); border-radius: 10px; padding: 4px 10px; filter: drop-shadow(3px 2px 0 rgba(0, 0, 0, 0.3)); color:var(--uno); cursor: pointer; font-weight: normal; list-style-image: url(https://upload.forumfree.net/i/ff13982804/Enchanted/news.gif)}
+summary::-webkit-details-marker {background: url(https://upload.forumfree.net/i/ff13982804/Enchanted/news.gif); color: transparent}
+ details[open] summary {border: 0; border-radius: 8px 8px 0 0; background: var(--due); text-indent: .5rem; filter:none; margin-bottom: 5px}
+ details[open] {background:var(--sei); max-width: 800px; border: 2px solid var(--uno); border-radius: 10px; filter: drop-shadow(3px 2px 0 rgba(0, 0, 0, 0.3)); padding-bottom: 10px; color: var(--sette)}
+/* Nascondi tutto inizialmente quando aperto(necessario per lo script)*/
+details[open] summary ~ * {opacity: 0}
+/* Solo quando ha la classe animate, mostra con animazione(necessario per lo script) */
+details[open] summary ~ *.animate {animation: sweep .5s ease-in-out forwards}
+@keyframes sweep {0% {opacity: 0;
+ margin-left: 10px}
+ 100% {opacity: 1;
+ margin-left: 18px}}
+/*Styling DailyUsers(Utenti collegati nelle ultime 24 ore) -(la versione di Nicoxys) & Elenco Script*/
+.cs-modal-content {background: var(--otto)!important; border: 3px solid var(--uno); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); padding-bottom: 10px}
+.cs-modal-title {font-family:roboto; color:var(--sei); letter-spacing:.5px}
+.cs-modal-head:not(.cs-d-none)+.cs-modal-body, .cs-modal-head:not(.cs-d-none)~.cs-modal-footer, .cs-modal-body:not(.cs-d-none)+.cs-modal-footer {border-top: none}
+.cs-modal .cs-modal-close {color:var(--uno); font-weight:bold}
+.cs-modal-body {background:var(--cinque); padding: 8px!important; margin: 0 8px !important; border-radius: 10px; border: 3px solid var(--sei)!important}
+.daily-list {background:var(--tre); padding: 4px!important; border: 3px solid var(--sei); border-radius: 10px}
+.dailyusers-member-link img {object-fit: cover!important; border: 2px solid var(--tre)!important}
+.du-modal .daily-list>li>div.dailyusers-member-details {color:var(--uno)}
+.du-modal .daily-list>li {padding: 2px}
+.du-modal .daily-list>li:not(:first-child) {border-top: 2px solid var(--due) !important}
+.cs-btn {border: 2px solid var(--uno)!important; background-color: var(--cinque)!important; color: var(--sei)!important; font-weight:bold}
+.cs-btn:hover {border: 2px solid var(--uno); background-color: var(--tre)!important; color: var(--sei)}
+.credits-container {border: 2px solid var(--due)!important; margin-bottom: 5px!important}
+.credits-container .credits-header {background-color:var(--due)!important}
+.credits-container .credits-header a {color:var(--otto)!important}
+.credits-container .credits-list {background: var(--tre)}
+.credits-container .credits-list .credits-script-row .credits-script-name {color: var(--sei)!important}
+.credits-container .credits-list .credits-script-row .credits-author-name {color: var(--sei)!important}
+.credits-container .credits-list .credits-script-row {color:var(--uno); border-top: 1px solid var(--sei)!important}
+/*Profile Tracker*/
+#profile-tracker #tracked-list {padding: 0 8px!important}
+#profile-tracker #tracked-list li.tracked-entity:hover {background:var(--due)}
+#profile-tracker li.title {color: var(--due); padding: 0 8px}
+/*Personalizzazione skin - GR*/
+#gr-modal {color:var(--due)!important}
+.skin-personalizer-button::after {top: 4px; right: 0; background-color:var(--cinque)}
+/*Profile Tracker*/
+#profile-tracker #tracked-list {padding: 0 8px!important}
+#profile-tracker #tracked-list li.tracked-entity {background:var(--cinque); padding: 2px; color:var(--sei)}
+#profile-tracker #tracked-list li.tracked-entity:hover {background:var(--quattro)}
+#profile-tracker li.title {color: var(--uno); padding: 0 8px}
+/*Personalizzazione skin - GR*/
+#gr-modal {color:var(--due)!important}
+.skin-personalizer-button::after {top: 4px; right: 0; background-color:var(--cinque)}
+/* NOTIFICHE */
+#notifications-modal {padding: 12px}
+/* Titolo */
+#notifications-modal .modal-title {font: 29px 'roboto'; color: var(--sei); letter-spacing: 2px; padding-top: 0; padding-bottom: 5px; text-align: center}
+/* Avatar accanto alle notifiche */
+#notifications-modal .avatar {width: 60px; height: 60px; border-radius: 50px 0 50px 50px!important; border: 3px solid var(--uno); background: var(--uno); overflow: hidden}
+#notifications-modal .avatar img {object-fit: cover!important}
+/* Bottoncino sull'avatar */
+#notifications-modal .notification-image {position: relative}
+#notifications-modal .notification-image .notification-type {box-sizing:content-box; border: 3px solid var(--uno); background-color: var(--uno)}
+/* Testo notifica */
+#notifications-modal .notification-row .notification-body {width: 100%; font: 13px roboto}
+#notifications-modal .notification-row .notification-text, #notifications-modal a.notification-row .notification-date {padding-left: 5px}
+#notifications-modal .notification-row .notification-status {padding: 15px; background-color: #0000}
+/* Row */
+#notifications-modal .notification-container:not(.readed) .notification-row, #notifications-empty {background: var(--sette); border: 3px solid var(--sei); border-radius: 10px; margin: 3px!important}
+#notifications-modal .notification-container:not(.readed) .notification-row:hover {background: var(--cinque); border: 3px solid var(--sei)}
+#notifications-modal .notification-row {background: var(--quattro); padding: 4px; cursor: pointer; transition: all 0.5s ease; border: 3px solid var(--sei); border-radius: 10px; margin: 3px!important; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+#notifications-modal .notification-row:hover {background: var(--cinque)}
+#notifications-modal .notification-row .notification-text {text-decoration: none; color: var(--uno)!important}
+.notification-container .error {color: #453F4E; font-weight: bold}
+#notifications-empty {box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+/* Read status */
+#notifications-modal .notification-row .dot {display: inline-block; height: 10px; width: 10px; background: transparent}
+#notifications-modal .notification-container:not(.readed) .dot {background-color: var(--uno)}
+#notifications-modal .notification-container:not(.readed) .notification-date, #notifications-empty {color: var(--uno); font-weight: 500}
+#notifications-links a {color: var(--sei); font-weight: 500}
+#notifications-modal .notification-container.readed .notification-text, #notifications-modal .notification-container.readed .notification-date {color: var(--uno)!important; transition: all 0.5s ease}
+#notifications-modal .notification-options {position: absolute; right: 30px}
+#notifications-modal .notification-options .dropbtn:not(:focus) {opacity: 0}
+#notifications-modal .notification-container:hover .notification-options .dropbtn {opacity: 1}
+/* Dropdown */
+.notification-container .dropbtn {width: 30px; height: 30px; background: var(--uno); border: none; position: relative; box-shadow: none; cursor: pointer; transition: all 0.5s ease; outline: none}
+.notification-container .dropbtn:hover {background-color: var(--sei)}
+.notification-container .dropbtn:before {content: ""; position: absolute; left: 6px; top: 13px; margin-left: -1px; background: var(--sette); border-radius: 50%; width: 5px; height: 5px; box-shadow: 7px 0 var(--sette), 15px 0 var(--sette)}
+/* Varie icone */
+.notification-container .mark-as-read .d-icon {background-image: url(https://i.ibb.co/wsF87rb/Letta.png)}
+.notification-container .mark-as-all-read .d-icon {background-image: url(https://i.ibb.co/Tgmgndm/doppie-spunte.png);
+top: 8px}
+.notification-container .mark-as-toread .d-icon {background-image: url(https://i.ibb.co/B62nwMr/Non-letta.png)}
+.notification-container .remove-notification .d-icon {background-image: url(https://i.ibb.co/pWdXKdK/Cancella.png)}
+.notification-container .unsubscribe .d-icon {background-image: url(https://i.ibb.co/7km1RCF/No-notifiche.png)}
+.notification-container .subscribe .d-icon {background-image: url(//cdn.forumfree.it/internals/notifications/icons/notification.svg)}
+.notification-container .add-friend .d-icon {background-image: url(//cdn.forumfree.it/internals/notifications/icons/user-add.svg)}
+.notification-container .remove-friend .d-icon {background-image: url(//cdn.forumfree.it/internals/notifications/icons/user-del.svg)}
+.notification-container .block-user .d-icon {background-image: url(//cdn.forumfree.it/internals/notifications/icons/lock.svg)}
+.notification-container .allow-user .d-icon {background-image: url(//cdn.forumfree.it/internals/notifications/icons/unlocked.svg)}
+/* Links nel dropdown */
+.notification-container .dropdown-content a {background: var(--due); color: var(--sette); padding: 6px 8px; text-decoration: none; display: block; border-radius: 10px; text-align: left; margin-bottom: 2px}
+.notification-container .dropdown-content a:last-child {margin-bottom: 0}
+.notification-container .dropdown-content a:hover {background-color: var(--uno)}
+.notification-container .show {display: block}
+#notifications-modal .plus-button {background: var(--due); border: 3px solid var(--sei); box-shadow:none}
+#notifications-modal .plus-button:before {height: 20px; width: 4px}
+#notifications-modal .plus-button:after {height: 4px; width: 20px}
+#notifications-mode {display: flex; flex-flow: row; align-items: center; margin: 0 1em}
+#notifications-mode button {flex-basis: 25%; padding: .5rem; margin: .5em .1em; background: var(--sette); border: 2px solid var(--sei); user-select: none; outline: none; transition: background .3s ease; color: var(--sei); border-radius: 8px!important; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+#notifications-mode button > b {margin-left: 2px}
+#notifications-mode button.active, #notifications-mode button[data-mode]:hover {background: var(--due); color: var(--otto)}
+#notifications-mode button.active {font-weight: bold}
+#notifications-option-dropdown {box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)!important}
+/*Finestra che si apre premendo i tre puntini laterali*/
+.tippy-box {background-color: var(--sei) !important; border: 3px solid var(--due)}
+.tippy-box>.tippy-arrow:before {border-left-color: var(--due) !important; left: 18px!important}
+.tippy-box>.tippy-arrow:before {border-bottom-color: transparent !important}
+/* Blocco orizzontale On Game*/
+#c9047227 .big_list > li > *:not(.bb):not(.zz) {display:none}
+#c9047227 .bb, #c9047227 .zz {width: 100%}
+#c9047227 .bb {text-align:center}
+#c9047227 .bb .web a {display: block; text-align: center; font-size: 18px; color: var(--sei); background: var(--otto); border-radius: 0 0 10px 10px; height: 28px; width: 98%; border: 2px solid var(--due); margin-top: -4px; border-top: 0; line-height: 1.5}
+#c9047227 .desc {display:inline-block; font-size: 9pt; line-height: 1.5; height: 87px; overflow-y: auto; overflow-x:hidden; text-align: center; width: 94%!important; margin-left: 8px; padding-right: 5px; margin-top: 5px; box-sizing:content-box}
+#c9047227 .ffav_lastpost {display:none!important}
+#c9047227 .zz {display:inline-block; padding: 3px 0!important; background: var(--otto); width: 95% !important; margin: auto; border-radius: 5px; margin-bottom: 5px; border: 2px solid var(--due); white-space: nowrap; overflow: hidden; text-overflow: ellipsis}
+#c9047227 .when {display:none}
+#c9047227 .where span {display: none!important}
+#c9047227 .where {display:inline-block; text-align: left; width: auto!important; max-width: 190px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; font-weight: bold; padding-right: 3px}
+#c9047227 .who {display:inline-block; overflow: hidden; text-overflow: clip; -o-text-overflow: clip; max-width: 85px !important; white-space: nowrap; text-overflow: ellipsis; overflow: hidden}
+#c9047227 .who a {color: var(--sei); font-weight:bold}
+#c9047227 .who span {display: none!important}
+#c9047227 .who a::before {text-rendering: auto; -webkit-font-smoothing: antialiased; font: var(--fa-font-solid); display: inline-block; color: var(--sei); font-size: 12px!important; content: "\40"; font-weight:bold!important; line-height: 0.7; vertical-align:middle; padding-right: 1px}
+#c9047227 .big_list li {overflow: hidden}
+
+#f9047227 .bb .desc {background: url('https://upload.forumfree.net/i/ff13982804/Hunter/mondo.gif') left no-repeat}
+#f9047227 .bb .desc:hover {background:url('https://upload.forumfree.net/i/ff13982804/Hunter/mondo.gif') -500px no-repeat}
+#f9047228 .bb .desc {background: url('https://upload.forumfree.net/i/ff13982804/Hunter/TorreCeleste.gif') left no-repeat}
+#f9047228 .bb .desc:hover {background: url('https://upload.forumfree.net/i/ff13982804/Hunter/TorreCeleste.gif') -500px no-repeat}
+#f9047555 .bb .desc {background: url('https://upload.forumfree.net/i/ff13982804/Hunter/Mercante.gif') left no-repeat}
+#f9047555 .bb .desc:hover {background: url('https://i.ibb.co/sF2yf5g/mercante-gif.gif') -500px no-repeat}
+
+#c9047227 .bb .desc {opacity: 0.8; transition: all 1200ms cubic-bezier(0.420, 0.000, 0.580, 1.000); width: 700px; padding-left: 400px}
+#c9047227 .bb .desc:hover {opacity: 1 !important; padding-left: 0}
+#c9047227 .subs {display:none}
+#c9047227 .big_list {display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 1fr; grid-column-gap: 0; grid-row-gap: 0; text-align: center} /*
+
+/* BOTTONI CAMBIO SKIN */
+.menuwrap .right .skin-switcher {cursor: pointer;
+ display: inline-flex !important;
+ align-items: center !important;
+ justify-content: center !important;
+ width: 48px !important;
+ height: 48px !important;
+ border-radius: 10px;
+ margin-right: 3px !important;
+ padding: 0 !important;
+ box-sizing: border-box !important;
+ vertical-align: middle !important}
+
+.skin-switcher:after {display: block;
+ color: #FFF;
+ font-family: 'Font Awesome 6 Free';
+ font-weight: 900;
+ font-size: 12pt;
+ transition: .2s ease;
+ cursor: pointer;
+ line-height: 1 !important; /* importante per centratura verticale */
+ margin: 0 !important;
+ padding: 0 !important}
+
+.skin-switcher:hover:after {transform: scale(1.1)}
+
+/* Icone specifiche per ogni bottone */
+.skin-base:after {font-size: 24px; content: '\e3af'}
+.skin-base {background: #79BD9A; border: 3px solid #0B486B}
+
+.skin-halloween:after {font-family:material design icons; font-size: 34px; display: inline-block; font-weight:normal; content: "\F0BA3"}
+.skin-halloween {background: #FF6600; border: 3px solid #7B370A}
+
+.skin-natale:after {font-size: 24px; font-weight:normal; content: '\f2dc'}
+.skin-natale {background: #931D2D; border: 3px solid #4C0B14}
+
+
+
+
+
+
+
+
+/*Scheda Pg*/
+.schedapg {margin:auto!important; box-sizing:content-box}
+.schedapg {background: #CEF09F; border: 13px #3A8687 solid; margin: 0; border-radius:; position:relative; height: 585px; width: 650px; padding-right: 3px; color: #DDD}
+ .schedapg .pgcit1 {background: #E3F6C4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #0B486B; border: 5px solid #3A8786; margin-top: 5px; text-align:center}
+ .schedapg .pgcit1:before {content:'\275D '; font-size: 15px}
+ .schedapg .pgcit1:after {content:'\275e '; font-size: 15px}
+ .schedapg .nomecognome {box-sizing:content-box; transition: all 800ms cubic-bezier(0.420, 0.000, 0.580, 1.000); display: inline-block; padding-top: 1px; font-family:gloria hallelujah; background: #E3F6C4; color: #0B486B; height: 40px; font-size: 40px; line-height: 1em; border: 10px solid#3B8787; letter-spacing: 4px; width: 96%; padding-left: 9px; text-align:center; margin-top: 5px; font-weight:bold}
+ .schedapg .nomecognome:hover {letter-spacing: 8px}
+.schedapg .pgpv {position:absolute; bottom: 10px; left: 230px; color: #0B486B}
+ .schedapg .schedacopyright {position:absolute; bottom: 0!important; right: 5px; text-transform:uppercase; color: #0B486B}
+ .schedapg .schedacopyright a {border:none; text-transform:uppercase; color: #0B486B!important; font-size: 9px}
+ .schedapg .schedacopyright:before {content:'\00A9'; margin-right: 4px; color: #0B486B; font-size: 11px}
+ .schedapg .pgcit2 {background: #E3F6C4; border: 5px double #3B8787; margin-right: 2px; margin-bottom: 2px; text-align:center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 9px; color: #0B486B}
+ .schedapg .pgcit2:before {content:'\275D '; font-size: 13px}
+ .schedapg .pgcit2:after {content:'\275e '; font-size: 13px}
+ .schedapg .tabanagrafe {overflow-y:auto; height: 126px; margin-right: 3px; padding-right: 4px; margin-bottom: 8px}
+ .schedapg .tabinfo2 {overflow-y:auto; height: 132px; margin-right: 3px; padding-right: 4px; padding-left: 4px; margin-left: 3px; background: #D1B3C4; color: #252525; margin-left: 113px; font-size: 11px; font-weight:bold; line-height: 1.2}
+ .schedapg .infotitoli {color: #0B486B; text-transform:lowercase; font-family:sriracha; font-size: 18px; font-variant:small-caps; font-weight:bold}
+ .schedapg .infotitoli:before {content:'\2666 '; font-size: 20px; margin-right: 4px}
+ .schedapg .infotesto {color: #444; text-transform:lowercase; font-family:roboto; font-size: 17px; font-variant:small-caps; font-weight:bold; letter-spacing: 1px}
+ .schedapg .pgimg7 {box-sizing:content-box; object-fit: cover; transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000); width: 130px; height: 365px; border: 5px solid#3B8787; padding: 10px; float:left; margin-right: 4px}
+ .schedapg .tabaspetto {overflow-y:auto; height: 195px; margin-right: 3px; padding-right: 4px; margin-bottom: 8px; font-size: 12px; line-height: 1.3; text-align:justify; color: #333}
+ .schedapg .tabaspetto:before {content:'Aspetto:'; color: #0B486B; margin-right: 4px; font-size: 20px; line-height: 1; float:left; margin-bottom: 0; letter-spacing: 0; background: #E3F6C4; padding-right: 4px; border: 4px solid#3A8786; font-family:sriracha}
+ .schedapg .tabsegni {overflow-y:auto; height: 185px; margin-right: 3px; padding-right: 4px; margin-bottom: 8px; font-size: 12px; line-height: 1.3; text-align:justify; color: #333}
+ .schedapg .tabsegni:before {content:'Segni Particolari:'; color: #0B486B; margin-right: 4px; font-size: 20px; line-height: 1; float:left; margin-bottom: -3px; letter-spacing: 0; background: #E3F6C4; padding-right: 4px; border: 4px solid#3A8786; font-family:sriracha}
+ .schedapg .container_aggettivi {background: #E3F6C4; border: 5px double #3A8786; margin-right: 2px; margin-bottom: 2px; text-align:center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 9px; color: #0B486B}
+ .schedapg .aggettivo1 {color: #E3F6C4; background: #0B486B; padding-left: 6px; padding-right: 6px; letter-spacing: 2px; font-weight:bold}
+ .schedapg .sep_aggettivo {font-size: 10px}
+ .schedapg .aggettivo2 {color: #E3F6C4; background: #3A8786; padding-left: 6px; padding-right: 6px; letter-spacing: 2px; font-weight:bold}
+ .schedapg .titolo_odia {box-sizing:content-box; writing-mode: vertical-lr; text-orientation: mixed; float:left; background: #0B486B; width: 20px; height: 189px; text-align:center; border: 3px solid #3A8786; line-height: 1.5; color: #E3F6C4; text-transform:lowercase; font-family:roboto; font-size: 15px; font-variant:small-caps; font-weight:bold; transform: rotate(-180deg)}
+ .schedapg .titolo_ama {box-sizing:content-box; writing-mode: vertical-lr; text-orientation: mixed; float:left; background: #0B486B; width: 20px; height: 189px; text-align:center; border: 3px solid #3A8786; line-height: 1.5; color: #E3F6C4; text-transform:lowercase; font-family:roboto; font-size: 15px; font-variant:small-caps; font-weight:bold; transform: rotate(-180deg)}
+ .schedapg .titolo_pregi {box-sizing:content-box; writing-mode: vertical-lr; text-orientation: mixed; float:left; background: #0B486B; width: 20px; height: 189px; text-align:center; border: 3px solid #3A8786; line-height: 1.5; color: #E3F6C4; text-transform:lowercase; font-family:roboto; font-size: 15px; font-variant:small-caps; font-weight:bold; transform: rotate(-180deg)}
+ .schedapg .titolo_difetti {box-sizing:content-box; writing-mode: vertical-lr; text-orientation: mixed; float:left; background: #0B486B; width: 20px; height: 189px; text-align:center; border: 3px solid #3A8786; line-height: 1.5; color: #E3F6C4; text-transform:lowercase; font-family:roboto; font-size: 15px; font-variant:small-caps; font-weight:bold; transform: rotate(-180deg)}
+ .schedapg .odia {box-sizing:content-box; float:left; height: 189px; width: 137px; border: 3px solid #3A8786; border-left:none; overflow-y:auto; margin-bottom: 3px}
+ .schedapg .ama {box-sizing:content-box; float:left; height: 189px; width: 137px; border: 3px solid #3A8786; border-left:none; overflow-y:auto; margin-right: 3px; margin-bottom: 3px}
+ .schedapg .pregi {box-sizing:content-box; float:left; height: 189px; width: 137px; border: 3px solid #3A8786; border-left:none; overflow-y:auto; margin-right: 3px; margin-bottom: 3px}
+ .schedapg .difetti {box-sizing:content-box; float:left; height: 189px; width: 137px; border: 3px solid #3A8786; border-left:none; overflow-y:auto; margin-bottom: 3px}
+ .schedapg .elenco_odia_ama {box-sizing:content-box; color: #0B486B; text-transform:lowercase; font-family:sriracha; font-size: 18px; font-variant:small-caps; font-weight:normal}
+ .schedapg .elenco_odia_ama:before {content:'\2663'; font-size: 18px; margin-right: 2px; margin-left: 2px}
+ .schedapg .tabstoria {overflow-y:auto; height: 195px; margin-right: 3px; padding-right: 4px; margin-bottom: 8px; font-size: 12px; line-height: 1.3; text-align:justify; color: #333}
+ .schedapg .tabstoria:before {content:'Storia:'; color: #0B486B; margin-right: 4px; font-size: 20px; line-height: 1; float:left; margin-bottom: 0; letter-spacing: 0; background: #E3F6C4; padding-right: 4px; border: 4px solid#3A8786; font-family:sriracha}
+ .schedapg .tablegami {overflow-y:auto; height: 185px; margin-right: 3px; padding-right: 4px; margin-bottom: 8px; font-size: 12px; line-height: 1.3; text-align:justify; color: #333}
+ .schedapg .tablegami:before {content:'Legami:'; color: #0B486B; margin-right: 4px; font-size: 20px; line-height: 1; float:left; margin-bottom: -3px; letter-spacing: 0; background: #E3F6C4; padding-right: 4px; border: 4px solid#3A8786; font-family:sriracha}
+ .schedapg .tabstats {box-sizing:content-box; border: 10px solid #3A8786; padding-top: 0; margin-left: 163px; margin-right: 3px; padding-top: 12px; width: 320px; padding-bottom: 13px}
+ .schedapg .pgstats {border-bottom: 2px dashed; margin-left: 3px; color: #0B486B; text-transform:lowercase; font-family:sriracha; font-size: 18px; font-variant:small-caps; font-weight:bold}
+ .schedapg .pgstats_valore {float:right; margin-top: -17px; margin-right: 5px; color: #3A8786; font-size: 18px}
+ .schedapg .progress-bar {background-color: #E3F6C4; height: 10px; padding: 2px; width: 330px; margin: 5px 0; border-radius: 100px; box-shadow: 0 1px 5px #0B486B inset, 0 1px 0 #0B486B; margin-left: 165px}
+.schedapg .progress-bar span {display: inline-block; height: 10px; border-radius: 10px 0 0 10px; box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset; background-color: #0B486B; width: 100%; background-image: linear-gradient(45deg, #3A8786 25%, transparent 25%, transparent 50%, #3A8786 50%, #3A8786 75%, transparent 75%, transparent)}
+.schedapg .tabexp {box-sizing:content-box; color: #0B486B; margin-right: 4px; margin-left: 163px; font-size: 20px; line-height: 1; margin-bottom: 0; letter-spacing: 0; background: #E3F6C4; padding-right: 4px; border: 4px solid#3A8786; font-family:sriracha; width: 325px}
+.schedapg .tabpotere {box-sizing:content-box; border: 10px solid #3A8786; padding-top: 0; height: 227px; border-top: 0; margin-left: 113px; margin-right: 3px; padding-top: 7px; overflow-y:auto; margin-bottom: 3px; line-height:.9; color: #000; padding: 5px}
+ .schedapg .potere-titolo {box-sizing:content-box; text-align:center; font-family:sriracha; background: #3A8786; font-size: 20px; line-height: 1; padding: 5px; width: 323px; margin-left: 164px}
+ .schedapg .quest-titolo {box-sizing:content-box; text-align:center; font-family:sriracha; background: #3A8786; font-size: 20px; line-height: 1; padding: 5px; width: 323px; margin-left: 164px}
+ .schedapg .tabquest {box-sizing:content-box; border: 10px solid #3A8786; padding-top: 0; height: 340px; border-top: 0; margin-left: 113px; margin-right: 3px; padding-top: 7px; overflow-y:auto; margin-bottom: 3px; line-height:.9; color: #000; padding: 5px}
+ .schedapg a:link, .schedapg a:visited
+ {color: #0B486B; border:none!important; text-shadow: none !important}
+ .schedapg .top {height: 1px !important; position:absolute; border-bottom: 0 black solid; top: -15px !important; left: 0; right: 0}
+ .schedapg .pixel_slide_slider {box-sizing:content-box; overflow:visible !important; position:absolute; height: 320px!important}
+ .schedapg .pixel_label_container {box-sizing:content-box; background: #3B8787; border: 5px solid #3B8787; position:absolute; top: 127px; bottom: 0; right: 6px; height: 402px; width: 110px; margin: 0 !important; padding: 3px !important}
+ .schedapg .pixel_label_container button {background: #E3F6C4; margin-top: 6px; margin-bottom: 4px; font-family: verdana; font-variant:small-caps; font-weight:bold; text-transform:lowercase!important; color: #454545; font-size: 10px; height: 30px; width: 100%; padding: 0!important; transition: 0.8s ease all; border: 5px solid #0B486B}
+ .schedapg .pixel_label_container button:hover {letter-spacing: 1px}
+ .schedapg .pixel_label_container button.active {background: #0B486B; color: #FFF; border: 5px solid #E3F6C4}
+ .schedapg hr {border-top: 2px dashed #D1B3C4 !important}
+ .schedapg .schedapgbase {box-sizing:content-box; right: 60px !important; width: 500px !important; height: 420px!important; bottom: 0 !important; top: 80px!important; color: #FFF!important; font-family: roboto !important; font-size: 12px!important; line-height: 14px !important}
+/*Scheda Kara*/
+ .schedakara {box-sizing:content-box; margin:auto!important}
+ .schedakara {box-sizing:content-box; background: lightgrey; border: 13px darkred solid; margin: 0; border-radius:; position:relative; height: 630px; width: 650px; padding-right: 3px; color: #DDD}
+ .schedakara .pgcit1 {box-sizing:content-box; background: #E3F6C4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #0B486B; border: 5px solid #3A8786; margin-top: 5px; text-align:center}
+ .schedakara .pgcit1:before {box-sizing:content-box; content:'\275D '; font-size: 15px}
+ .schedakara .pgcit1:after {box-sizing:content-box; content:'\275e '; font-size: 15px}
+ .schedakara .nomecognome {box-sizing:content-box; transition: all 800ms cubic-bezier(0.420, 0.000, 0.580, 1.000); display: inline-block; font-family:gloria hallelujah; background: black; background-image: url("https://i.imgur.com/u4GSgpy.png"); color: darkred; height: 90px; font-size: 40px; line-height: 1em; border: 10px solid darkred; letter-spacing: 4px; text-align:center; margin-top: 5px; font-weight:bold; width: 98%}
+ .schedakara .nomecognome:hover {box-sizing:content-box; letter-spacing: 8px}
+ .schedakara .pgpv {box-sizing:content-box; position:absolute; bottom: 10px; left: 230px; color: #0B486B}
+ .schedakara .schedacopyright {box-sizing:content-box; position:absolute; bottom: 0!important; right: 5px; text-transform:uppercase; color: #0B486B}
+ .schedakara .schedacopyright a {border:none; text-transform:uppercase; color: darkred!important; font-size: 9px}
+ .schedakara .schedacopyright:before {content:'\00A9'; margin-right: 4px; color: darkred; font-size: 11px}
+ .schedakara .pgcit2 {box-sizing:content-box; background: lightgrey; border: 5px double darkred; margin-right: 2px; margin-bottom: 2px; text-align:center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 9px; color: darkred}
+ .schedakara .pgcit2:before {box-sizing:content-box; content:'\275D '; font-size: 13px}
+ .schedakara .pgcit2:after {box-sizing:content-box; content:'\275e '; font-size: 13px}
+ .schedakara .pgcit3 {box-sizing:content-box; background: lightgrey; border: 5px double darkred; margin-right: 2px; margin-bottom: 2px; text-align:center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 9px; color: darkred}
+ .schedakara .tabanagrafe {box-sizing:content-box; height: 390px; margin-right: 3px; padding-right: 4px; margin-bottom: 8px}
+ .schedakara .tabinfo2 {box-sizing:content-box; overflow-y:auto; height: 360px; margin-right: 3px; padding-right: 4px; padding-left: 4px; margin-left: 3px; background: #D1B3C4; color: #252525; margin-left: 113px; font-size: 11px; font-weight:bold; line-height: 1.2}
+ .schedakara .infotitoli {box-sizing:content-box; color: #0B486B; text-transform:lowercase; font-family:sriracha; font-size: 18px; font-variant:small-caps; font-weight:bold}
+ .schedakara .infotitoli:before {box-sizing:content-box; content:'\2666 '; font-size: 20px; margin-right: 4px}
+ .schedakara .infotesto {box-sizing:content-box; color: #444; text-transform:lowercase; font-family:roboto; font-size: 17px; font-variant:small-caps; font-weight:bold; letter-spacing: 1px}
+ .schedakara .pgimg7 {box-sizing:content-box; object-fit: cover; transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000); width: 200px; border: 5px solid darkred; padding: 10px; float:left; margin-right: 4px}
+ .schedakara .tabdescr {box-sizing:content-box; overflow-y:auto; height: 160px; margin-right: 3px; padding-right: 4px; margin-bottom: 8px; font-size: 12px; line-height: 1.3; text-align:justify; color: #333}
+ .schedakara .tabdescr:before {box-sizing:content-box; content:'Descrizione:'; color: white; margin-right: 4px; font-size: 20px; line-height: 1; float:left; margin-bottom: 0; letter-spacing: 0; background: darkred; padding-right: 4px; border: 4px solid darkred; font-family:sriracha}
+ .schedakara .tabbg {box-sizing:content-box; overflow-y:auto; height: 220px; margin-right: 3px; padding-right: 4px; margin-bottom: 8px; font-size: 12px; line-height: 1.3; text-align:justify; color: #333}
+ .schedakara .tabbg:before {box-sizing:content-box; content:'Storia:'; color: white; margin-right: 4px; font-size: 20px; line-height: 1; float:left; margin-bottom: -3px; letter-spacing: 0; background: darkred; padding-right: 4px; border: 4px solid darkred; font-family:sriracha}
+ .schedakara .aggettivo1 {box-sizing:content-box; color: #EF7273; background: black; padding-left: 6px; padding-right: 6px; letter-spacing: 2px; font-weight:bold}
+ .schedakara .sep_aggettivo {box-sizing:content-box; font-size: 10px; color:crimson}
+ .schedakara .aggettivo2 {box-sizing:content-box; color: #EF7273; background: darkred; padding-left: 6px; padding-right: 6px; letter-spacing: 2px; font-weight:bold}
+ .schedakara .titolo_elenco {box-sizing:content-box; writing-mode: vertical-lr; text-orientation: mixed; float:left; background: darkred; width: 20px; height: 188px; text-align:center; border: 3px solid darkred; line-height: 1.5; color: white; text-transform:lowercase; font-family:roboto; font-size: 15px; font-variant:small-caps; font-weight:bold; transform: rotate(-180deg)}
+ .schedakara .armi {box-sizing:content-box; float:left; height: 188px; width: 171px; border: 3px solid darkred; border-left:none; overflow-y:auto; margin-right: 3px; margin-bottom: 3px}
+ .schedakara .equip2 {box-sizing:content-box; float:left; height: 188px; width: 171px; border: 3px solid darkred; border-left:none; overflow-y:auto; margin-bottom: 3px}
+ .schedakara .oggextra {box-sizing:content-box; float:left; height: 188px; width: 171px; border: 3px solid darkred; border-left:none; overflow-y:auto; margin-right: 3px; margin-bottom: 3px}
+ .schedakara .materiali {box-sizing:content-box; float:left; height: 188px; width: 171px; border: 3px solid darkred; border-left:none; overflow-y:auto; margin-bottom: 3px}
+ .schedakara .elenco_ogg {box-sizing:content-box; color: darkred; text-transform:lowercase; font-family:sriracha; font-size: 15px; font-variant:small-caps; font-weight:normal; margin-left: 3px}
+ .schedakara .tabstats {box-sizing:content-box; border: 10px solid darkred; padding-top: 0; margin-left: 233px; margin-right: 3px; padding-top: 12px; width: 385px; padding-bottom: 13px}
+ .schedakara .pgstats {box-sizing:content-box; border-bottom: 2px dashed; margin-left: 3px; color: darkred; text-transform:lowercase; font-family:sriracha; font-size: 18px; font-variant:small-caps; font-weight:bold}
+ .schedakara .pgstats_valore {box-sizing:content-box; float:right; margin-top: -17px; margin-right: 5px; color: darkred; font-size: 18px}
+ .schedakara .progress-bar {box-sizing:content-box; background-color: #EF7273; height: 10px; padding: 2px; width: 370px; margin: 5px 0; border-radius: 100px; box-shadow: 0 1px 5px #0B486B inset, 0 1px 0 #0B486B; margin-left: 5px}
+ .schedakara .progress-bar span {box-sizing:content-box; display: inline-block; height: 10px; border-radius: 10px 0 0 10px; box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset; background-color: darkred; width: 100%; background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)}
+ .schedakara .tabexp {box-sizing:content-box; color: darkred; margin-right: 4px; margin-left: 233px; font-size: 20px; line-height: 1; margin-bottom: 0; letter-spacing: 0; background: lightred; padding-right: 4px; border: 4px solid darkred; font-family:sriracha; width: 393px}
+ .schedakara .tabpotere {box-sizing:content-box; border: 10px solid darkred; padding-top: 0; height: 100%; border-top: 0; margin-right: 3px; padding-top: 7px; overflow-y:auto; margin-bottom: 3px; line-height: 1; color: #000; padding: 5px}
+ .schedakara .potere-titolo {box-sizing:content-box; border: 1px; text-align:center; font-family:sriracha; background: darkred; font-size: 20px; line-height: 1; padding: 5px; width: 394px; margin-left: 233px}
+ .schedakara .quest-titolo {box-sizing:content-box; text-align:center; font-family:sriracha; background: #3A8786; font-size: 20px; line-height: 1; padding: 5px; width: 323px; margin-left: 164px}
+ .schedakara .tabquest {box-sizing:content-box; border: 10px solid #3A8786; padding-top: 0; height: 340px; border-top: 0; margin-left: 113px; margin-right: 3px; padding-top: 7px; overflow-y:auto; margin-bottom: 3px; line-height:.9; color: #000; padding: 5px}
+ .schedakara a:link, .schedapg a:visited {box-sizing:content-box; color: #0B486B; border:none!important; text-shadow: none !important}
+ .schedakara .top {box-sizing:content-box; height: 1px !important; position:absolute; border-bottom: 0 black solid; top: -30px !important; left: 0; right: 0}
+ .schedakara .pixel_slide_slider {box-sizing:content-box; overflow:visible !important; position:absolute; height: 320px!important}
+ .schedakara .pixel_label_container {box-sizing:content-box; background: grey; border: 5px solid darkred; top: 90px; bottom: 0; right: 6px; height: 40px; width: 640px; margin: 0 !important; padding: 3px !important}
+ .schedakara .pixel_label_container button {box-sizing:content-box; background: #EF7273; font-family: verdana; font-variant:small-caps; font-weight:bold; text-transform:lowercase!important; color: black; font-size: 10px; height: 30px; width: 18.4%; padding: 0!important; transition: 0.8s ease all; border: 5px solid darkred}
+ .schedakara .pixel_label_container button:hover {box-sizing:content-box; letter-spacing: 1px}
+ .schedakara .pixel_label_container button.active {box-sizing:content-box; background: darkred; color: #FFF; border: 5px solid #EF7273}
+ .schedakara hr {border-top: 2px dashed #D1B3C4 !important}
+ .schedakara .schedapgbase {box-sizing:content-box; left: 5px !important; width: 640px !important; height: 420px!important; bottom: 0 !important; top: 15px!important; color: #FFF!important; font-family: roboto !important; font-size: 12px!important; line-height: 14px !important}
+ .schedakara *::-webkit-scrollbar {width: 10px}
+ .schedakara *::-webkit-scrollbar-track-piece {background: #EF7273}
+ .schedakara *::-webkit-scrollbar-thumb {background: darkred; border-radius: 3px}
+
+ /* Credits Footer */
+.credits {position:absolute; width: 100%; height: 40px; background: linear-gradient(135deg, var(--uno) 0%, var(--due) 50%, var(--sei) 100%); border-top: 3px solid var(--tre); margin-top: 25px; overflow: hidden; box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(143, 190, 186, 0.3)}
+.credits::before {content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle, rgba(207, 240, 158, 0.1) 1px, transparent 1px); background-size: 10px 10px; pointer-events: none}
+.credits-content {height: 100%; display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; padding: 0 20px; font-family: 'Sriracha', cursive; font-size: 13px; letter-spacing: 0; color: var(--quattro); text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); position:relative; z-index: 1}
+.credit-item {display: inline-flex; align-items: center; gap: 5px}
+.credits a {color: var(--otto); text-decoration: none; font-weight: bold; transition: all 0.3s ease; text-shadow: 0 0 5px rgba(168, 219, 168, 0.5)}
+.credits a:hover {color: var(--cinque); text-shadow: 0 0 10px var(--cinque); transform: translatey(-1px)}
+.credit-separator {color: var(--quattro); opacity: 1; font-size: 10px; text-shadow: 0 0 5px var(--cinque)} e)} round: linear-gradient(135deg, var(--uno) 0%, var(--due) 50%, var(--sei) 100%); border-top: 3px solid var(--tre); margin-top: 25px; overflow: hidden; box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(143, 190, 186, 0.3)}
+.credits::before {content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle, rgba(207, 240, 158, 0.1) 1px, transparent 1px); background-size: 10px 10px; pointer-events: none}
+.credits-content {height: 100%; display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; padding: 0 20px; font-family: 'Sriracha', cursive; font-size: 13px; letter-spacing: 0; color: var(--quattro); text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); position:relative; z-index: 1}
+.credit-item {display: inline-flex; align-items: center; gap: 5px}
+.credits a {color: var(--otto); text-decoration: none; font-weight: bold; transition: all 0.3s ease; text-shadow: 0 0 5px rgba(168, 219, 168, 0.5)}
+.credits a:hover {color: var(--cinque); text-shadow: 0 0 10px var(--cinque); transform: translatey(-1px)}
+.credit-separator {color: var(--quattro); opacity: 1; font-size: 10px; text-shadow: 0 0 5px var(--cinque)}
