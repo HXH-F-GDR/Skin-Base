@@ -1,0 +1,242 @@
+/* Grafica x Skin x Elaborazione MOBILE - Skin di Fade To R e d*/:root {--bianco: #FFF;
+ --nero: #000;
+ --grigio: #727072;
+ --uno: #292354;
+ --due: #0B486B;
+ --tre: #3B8686;
+ --quattro: #79BD9A;
+ --cinque: #A8DBA8;
+ --sei: #CFF09E;
+ --sette: #E2F7C4;
+ --otto: #BEE1DE;
+ --sfondo: #3C7D84;
+ --color: #8FBEBA;
+ --anonimo: #A094AD;
+ --online: #A3DB8D;
+ --offline: #D94860;
+ --dicelow: #8A2747;
+ --dicemedium: #F6E1A3;
+ --dicehigh: #27788A;
+ --dicehighest: #278A36;
+ --titolo: gloria hallelujah;
+ --sottotitolo: sriracha}
+
+.topbutton .forminput {background: url(https://upload.forumfree.net/i/ff13982804/Hunter/topforum.png) no-repeat!important; height: 90px; width: 230px; font-size: 0; border: none; border: 0 !important; box-shadow: none !important}
+.chocorobot, .topforum {opacity:.8}
+.chocorobot:hover, .topforum:hover {opacity: 1}
+ body {font: 14px/150% var(--sottotitolo), Trebuchet MS, Tahoma, Sans-serif; color: var(--due); background-color: var(--sfondo)!important}
+a {color: var(--due); text-decoration: none} a:hover {color: var(--tre)}
+.last-post a *, .web * {color: var(--due) !important}
+
+.footer {color: #000!important}
+.footer a {font-weight: bold; color: #000!important}
+
+#fastemoticon span {background-image:url('https://upload.forumfree.net/i/ff13982804/Hunter/EmojiGon.gif'); background-size: 100%; background-position:center; width: 40px; height: 40px}
+
+/* SIDEBAR */
+#side_left_button span {display: inline-block; background-position: 0 0; margin-top: 5px; background-image: url(https://upload.forumfree.net/i/ff13982804/Hunter/Mobile/Star.png); background-size: 22px 22px; opacity: 0.9}
+
+#side_right_button span {display: inline-block; background-position: 0 0; margin-top: 5px; background-image: url(https://upload.forumfree.net/i/ff13982804/Hunter/Mobile/Drop.png); background-size: 22px 22px; opacity: 0.9}
+.sidebar {background-color: var(--sfondo); color: #FFF!important}
+.sidebar a {color: var(--sette)}
+.sidebar li {line-height: normal; color: var(--sette)}
+.side_title {background-color: var(--sei); color: var(--due); border-bottom: 1px solid var(--sette)}
+.submenu > li, .login > li, #ff_links, .search {border-bottom: 1px solid var(--sette)}
+#ff_links, .search {border-top: 0}
+/* menu utente */
+.menu > li {color: #FFF}
+.menu .nickname {font-family:helvetica condensed black!important; font-weight: bold; font-size: 25px!important; color: var(--sette)}
+.sidebar em {font-weight: bold; color: #FFF; background-color: #6C5C79}
+/* login */
+.login input {color: #444; border: 1px solid #DDD}
+.login input[type=submit] {background: #0085B2; color: #FFF; font-weight: bold} .login input[type=submit]:hover {background: #006789}
+/* cerca */
+.search {background-color: var(--sette)}
+.search input {color: var(--due)}
+
+/* NAV */
+.menuwrap_bg {background-color: var(--sette)!important}
+.menuwrap em {background-color: #BCE8F1}
+.underheader {background-color: var(--due)!important; padding-top: 10px!important; margin-top: 15px!important}
+.underheader a {color: var(--sette)!important}
+.underheader a:hover {border-bottom: 2px dashed var(--sette)!important}
+/* nome forum */
+#nav-title span {font-family:var(--titolo)!important; font-weight: bold; font-size: 25px!important; color: var(--due)}
+
+/* HEADER, LOGO */
+.header {background: var(--tre); height: 170px; margin:auto; margin-bottom: 15px}
+.logo {padding-top: 8px; background-position: center center; background-repeat: no-repeat; background-size: contain; height: 100%; max-width: 1020px!important; margin:auto}
+
+/* SEZIONI */
+.list-group > * {background: var(--quattro); margin: 10px; padding: 10px; border: 10px solid var(--sette); outline: 3px solid var(--due)}
+.stats_list > li:last-child {border-bottom: 0}
+.title {background-color: var(--sei); border-radius: 0; min-height: 15px; border: 3px solid var(--due); margin: 3px; text-align:center!important; padding: 3px; margin-top: 5px!important; color:var(--due)}
+li.bottom, li.top {padding: 3px; background: var(--quattro); border: 10px solid var(--sette)}
+
+.web a {font: 17px roboto, verdana, arial; font-weight:bold; color: var(--due)}
+
+/* mantenere "!important" per evitare problemi di visualizzazione */
+.desc, .desc * {color: var(--uno) !important}
+.last-post {color: var(--uno)}
+.board .last-post a, .board .last-post a * {font-size: 14px !important; font-weight: normal}
+.forum .last-post {margin-top: 7px}
+
+.topics, .replies, .views {font-size: 12px; color: var(--uno)}
+span.timeago {color: var(--uno) !important} .topic .timeago {color: var(--uno)}
+.no-time {font-style:italic; color: var(--uno)}
+.popupago {text-align: center; background-color: var(--due); color: var(--sette); border-radius: 5px}
+
+/* sottosezioni */
+.sub-link {font-size: 13px; color: var(--uno)}
+
+/* .on, .annuncio, .importante */
+.on {}
+.annuncio {background-color: var(--cinque)}
+.importante {background-color: var(--cinque)}
+
+/* SELEZIONE RIGA: Moderazione */
+li.selected {background-color: var(--due) !important} .selected *, .selected .web *, .selected .desc, .selected .desc *, .selected .last-post * {color: var(--sette) !important}
+
+/* MESSENGER */
+#mp-option label, #mp-delete {background-color: #FFF; color: #007299; font-weight: bold; font-size: 14px}
+#mp-option label {border-right: 1px solid #DDD}
+
+/* DISCUSSIONI, ARTICOLI */
+.post {border: 1px solid var(--due)}
+.details a, .cancelled {font: 26px helvetica condensed black, verdana, arial; font-weight: bold; color: var(--tre); text-shadow: 1px 1px 0 var(--otto)}
+.details {background-image:url('https://upload.forumfree.net/i/ff13982804/Hunter/Mobile/Header_discussioni4.png'); background-repeat: no-repeat; background-position: calc(100% + 250px) bottom; background-color: var(--due)}
+.cancelled {padding-left: 5px; font-weight: normal; color: var(--tre)}
+.topic .group {color: var(--otto); font-size: 13px}
+.color {background: var(--color); text-align: justify}
+.color a {font-weight: bold; text-decoration: underline}
+.edit {font-size: 10px; font-style: italic; color: var(--due)}
+.topic .option, .article .option {background-color: var(--sette); border-top: 1px solid var(--due)}
+.topic .like {color: var(--due)}
+/* etichette, firma ffmobile*/
+.tags, .ffmsign {font-size: smaller; font-style: italic}
+.tags {margin-bottom: 0}
+.tags a, .ffmsign a {text-decoration: none; font-weight: normal}
+/* alert, info, success */
+.alert {background: var(--due) !important; color: var(--sette) !important; border-color: var(--due)}
+.info {background: var(--due) !important; color: var(--sette) !important; border-color: var(--due)}
+.success {background-color: var(--due); color: var(--sette); border-color: var(--due)}
+.alert a, .info a, .success a {color: var(--sette); text-decoration: none; font-weight: bold} .alert a {color: var(--sette)} .success a {color: var(--sette)}
+/* allegati */
+.attachment {text-align: center; position: relative}
+.attachment > a {display: inline-block; padding: 7px}
+
+/* popup moderazione post */
+.topic .pop ul {background-color: #EEE; border: 1px solid #CCC; box-shadow: 0 0 5px rgba(0, 0, 0, .3)}
+.topic .pop li, .pop #t_like {border-color: #CCC} .topic .pop li:last-child {border: 0}
+.topic .pop a {font-size: 14px; color: #333}
+
+/* ONLINE, OFFLINE, ANONIMO */
+.online {background-color: var(--online)}
+.offline {background-color: var(--offline)}
+.anonimo {background-color: var(--anonimo)}
+
+/* SONDAGGIO */
+.poll-bar {background: var(--sette); border-radius: 5px; border: 2px solid var(--due)}
+.poll-bar div {background: var(--quattro); border-radius: 2px; color: var(--sei)!important}
+.poll-max {background: var(--otto); border-radius: 5px}
+.poll-max .poll-bar div {background:var(--quattro); border-radius: 2px; color var(--sei)!important}
+
+/* PAGINAZIONE */
+.pages, .pages .nolink:hover {border: 2px solid var(--due); background-color: var(--sei) !important}
+.pages li a {color: var(--due); font-size: 17px}
+.pages li > a:first-child {}
+.pages li a:hover {background-color: var(--due)}
+
+/* CITAZIONI, SPOILER e CODICI annidati */
+.quote_top, .quote, .code_top, .code {font-size: 11px; color: var(--due); margin: 1em; border-radius: 5px; border: 2px solid var(--due); padding: 5px!important; padding-top: 3px; background:var(--sette)}
+.quote_top, .code_top {font-size: 11px; color: var(--due); margin: 1em; background-position:bottom 7px right 100px; border-radius: 5px; border: 2px solid var(--due); padding-left: 5px; padding-top: 3px}
+.code {font-family: 'Courier New', Sans-serif}
+.quote_top a {padding: 0 10px; background: transparent url('//img.forumfree.net/index_file/q.png') center no-repeat; text-decoration: none}
+.quote, .code {padding: 5px 0 5px 10px; margin-top: 0; font-size: 9pt; line-height: 200%; color: var(--due)}
+.quote {text-align: justify}
+.quoteentry img {border: 3px solid var(--due); padding: 2px; background-color:var(--sette); border-radius: 10px; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); margin-right: 10px}
+#ffav_quote {padding-left: 10px !important; padding-bottom: 25px !important}
+
+
+/* PROFILO */
+header.profile {padding: 15px 0; color: var(--sette)}
+.profile .avatar {border-radius: 0 50% 50% 50%; border-width: 5px; margin-bottom: 20px; background-color: var(--due); border-color: var(--due)}
+.profile .avatar img {border-radius: 0 50% 50% 50%}
+.u_nick {font-family:helvetica condensed black; font-size: 35px; font-weight: bold; color: var(--due)}
+.u_group {font-size: 15px}
+.u_stats > table td {border-left: 1px solid #DDD}
+
+.profile .title, li.u_info, li.u_signature, li.u_friends {margin: 0 7px; border: 1px solid #CCC}
+.profile .title {margin-top: 7px; padding: 3px 8px; font-weight: bold; border-bottom: 0}
+.u_info dl {padding: 4px 7px} .u_info dl:last-child {border-bottom: 0}
+/* miniature avatar amici */
+.friend_avatar {border: 1px solid var(--due); border-radius: 5px}
+.friend_avatar img {border-radius: 5px}
+.friend_nickname {background: #222; color: #FFF; font-size: 10px; line-height: 15px; text-align: center; border-radius: 0 0 3px 3px}
+
+/* STATISTICHE */
+.stats {text-align: center; color: var(--due)}
+.groups_list {padding: 10px 5px}
+.user_online a:before, .groups_list a:before {color: var(--due)}
+.stats_list {text-align: left} .stats_list > li {padding: 3px 10px; font-weight: bold}
+.stats_bottom li {border-bottom: 1px dashed var(--due)}
+#dailyusers.dailyusers .dailyusers-member img, #dailyusers.dailyusers .dailyusers-member-link img {object-fit:cover!important; border: 3px solid var(--due)!important; background: var(--sette)!important; padding: 2px!important}
+.ffav_stats {padding: 2px; border: 3px solid var(--due); background: var(--sette); width: 36px!important}
+.ffav_stats img {object-fit:cover!important; width: 26px!important; height: 26px!important}
+/* COLORI GRUPPI */
+
+/*Gruppo 1*/
+.amministratore, .gruppo1 {color: #C7F8E3!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+/*Gruppo 2*/
+.moderatore, .gruppo2 {color: #99F9CF!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+/*Gruppo 3*/
+.gruppo3 {color: #BCFFBF!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+/*Gruppo 4*/
+.daconvalidare, .member, .utente:not(span.utente), .gruppo4 {color: #D6F999!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 4px; white-space: nowrap; display: inline-block}
+/*Gruppo 5*/
+.gruppo5 {color: #F9D899!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+/*Gruppo 6*/
+.gruppo6 {color: #F9B999!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+/*Gruppo 7*/
+.gruppo7 {color: #F99999!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+/*Gruppo 8*/
+.gruppo8 {color: #F999B4!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+/*Gruppo 9*/
+.gruppo9 {color: #F999DB!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+/*Gruppo 10*/
+.gruppo10 {color: #DF99F9!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+/*Gruppo 11*/
+.gruppo11 {color: #B799F9!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+/*Gruppo 12*/
+.gruppo12 {color: #99A5F9!important; font-weight: normal; background: var(--uno); padding: 2px 5px; border-radius: 3px; margin: 2px; white-space: nowrap; display: inline-block}
+
+.groups dd:before, .groups dd:after {display:none}
+.topmembers {display: none}
+/* INPUT e BOTTONI */
+.codebuttons, .forminput, .textinput, #allegati input {font-size: 1em; margin: 3px; padding: 5px 8px; background-color: var(--sette); color: var(--due); border: 2px solid var(--due); border-radius: 0}
+/* mantenere separato il selettore per evitare problemi di visualizzazione */
+#allegati input::-webkit-file-upload-button {font-size: 1em; margin: 3px; padding: 5px 8px; background-color: var(--sette); color: var(--due); border: 2px solid var(--due); border-radius: 0}
+.codebuttons:hover, #send-button:hover {background: var(--sei); border-color: var(--due); color: var(--due)}
+.textinput {margin: 10px 0; font-size: 16px}
+/* bagliore azzurro */
+.textinput:focus {outline: none; border-color: var(--due); box-shadow: 0 0 2px var(--due)}
+
+#mod_options {color: var(--due); border: 1px solid var(--due); padding: 3px}
+#send-button {background: var(--sette); font-size: 15px; color: var(--due); font-weight: bold}
+
+.buttons a {border: 2px solid var(--due); padding: 7px 0; background-color: var(--sette); color: var(--due); font-weight: bold; font-size: 14px}
+.buttons a:hover {background-color: var(--sei); color: var(--due)}
+
+a.new-topic {border: 2px solid var(--due); background-color: var(--sette); color: var(--due)}
+a.new-topic:hover {background-color: var(--sei)}
+a.reply {border: 2px solid var(--due); background-color: var(--sette); color: var(--due)}
+a.reply:hover {background-color: var(--sei)}
+a.delete {border: 2px solid var(--due); background-color: var(--sette); color: var(--due)}
+a.delete:hover {background-color: var(--sei)}
+
+.only-back a {border: 1px solid #BBB}
+
+.dice-low {color:var(--dicelow)!important}
+.dice-medium {color:var(--dicemedium)!important}
+.dice-highest {color:var(--dicehighest)!important}
+.dice-high {color:var(--dicehigh)!important} er {background-color: var(--sei)}
